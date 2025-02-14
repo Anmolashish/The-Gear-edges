@@ -1,5 +1,5 @@
-import AboutPage1 from "@/app/aboutComponents/AboutPage1";
-import ProductPage1 from "@/app/productComponents/ProductPage1";
+import AboutPage1 from "@/aboutComponents/AboutPage1";
+import ProductPage1 from "@/productComponents/ProductPage1";
 import Link from "next/link";
 
 export const metadata = {

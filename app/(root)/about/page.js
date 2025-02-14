@@ -1,5 +1,5 @@
-import Aboutpage2 from "@/app/aboutComponents/Aboutpage2";
-import AboutPage1 from "../../aboutComponents/AboutPage1";
+import Aboutpage2 from "@/aboutComponents/Aboutpage2";
+import AboutPage1 from "../../../aboutComponents/AboutPage1";
 
 export const metadata = {
   title: "The gear edges - About",

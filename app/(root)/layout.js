@@ -1,6 +1,6 @@
-import HomeFooter from "../components/HomeFooter";
-import HomePage4 from "../components/HomePage4";
-import Navbar from "../components/Navbar";
+import HomeFooter from "../../components/HomeFooter";
+import HomePage4 from "../../components/HomePage4";
+import Navbar from "../../components/Navbar";
 export const metadata = {
   title: "The gear edges - Home",
   description:

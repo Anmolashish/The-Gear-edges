@@ -4,8 +4,8 @@ import "@/styles/globals.css";
 import "@/styles/utility.css";
 import "@/styles/about-style.css";
 import "@/styles/product-style.css";
-import Loader from "./components/Loader";
-import { ProductsData } from "./ProductContext/ProductsData";
+import Loader from "../components/Loader";
+import { ProductsData } from "../ProductContext/ProductsData";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

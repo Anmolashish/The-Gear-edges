@@ -1,6 +1,6 @@
-import AboutPage1 from "@/app/aboutComponents/AboutPage1";
-import ContactPage1 from "@/app/contactComponents/ContactPage1";
-import ContactPage2 from "@/app/contactComponents/ContactPage2";
+import AboutPage1 from "@/aboutComponents/AboutPage1";
+import ContactPage1 from "@/contactComponents/ContactPage1";
+import ContactPage2 from "@/contactComponents/ContactPage2";
 import "@/styles/contact-style.css";
 import React from "react";
 

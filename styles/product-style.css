@@ -158,3 +158,16 @@
 .product-text {
   width: 80%;
 }
+
+.product-applications {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gap {
+  height: 100px;
+  width: 100%;
+}

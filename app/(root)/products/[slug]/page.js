@@ -1,4 +1,4 @@
-import ProductHandler from "@/app/productComponents/ProductHandler";
+import ProductHandler from "@/productComponents/ProductHandler";
 import React from "react";
 
 export default function page({ params }) {

@@ -1,5 +1,5 @@
-import AllProducts from "@/app/productComponents/AllProducts";
-import ProductPage1 from "@/app/productComponents/ProductPage1";
+import AllProducts from "@/productComponents/AllProducts";
+import ProductPage1 from "@/productComponents/ProductPage1";
 
 export default function page() {
   return (
