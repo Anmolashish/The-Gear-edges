@@ -10,10 +10,10 @@ export default function HomePage3() {
           <ul className="services-section flex justify-center align-center">
             <li className="services-div">Manufacturing</li>
             <li className="services-div">Maintainance</li>
-            <li className="services-div">Reconditioning</li>
-            <li className="services-div">Gear customization</li>
+            <li className="services-div">Cleaning</li>
+            <li className="services-div">Assembling</li>
             <li className="services-div">Bulk Production</li>
-            <li className="services-div">Gear Broaching</li>
+            <li className="services-div">Gear Inspection</li>
           </ul>
 
           <ul
@@ -22,10 +22,10 @@ export default function HomePage3() {
           >
             <li className="services-div">Manufacturing</li>
             <li className="services-div">Maintainance</li>
-            <li className="services-div">Reconditioning</li>
-            <li className="services-div">Gear customization</li>
+            <li className="services-div">Cleaning</li>
+            <li className="services-div">Assembling</li>
             <li className="services-div">Bulk Production</li>
-            <li className="services-div">Gear Broaching</li>
+            <li className="services-div">Gear Inspection</li>
           </ul>
         </div>
         <div className="testimonial-section">
@@ -45,18 +45,18 @@ export default function HomePage3() {
                   </div>
                 </div>
                 <div className="review">
-                  <h4>
-                    Steelman gear cutters are a solid choice for general gear
-                    cutting.
-                  </h4>
+                  <h4>Smooth and Precise</h4>
                   <p>
-                    “ We’ve used them for a variety of projects, from smaller
-                    gears to larger, high-torque applications, and they have
-                    performed well. The cutters offer precision and a good
-                    finish, though I’ve found that for certain materials (like
-                    hardened steel), they require more frequent re-sharpening.
-                    They’ve held up well in our shop and provide great value
-                    overall. ”
+                    “ I recently purchased a timing pulley for a CNC project,
+                    and I'm incredibly impressed with the quality. The machining
+                    is precise, resulting in smooth and accurate motion. The
+                    delivery was also faster than expected. Highly recommend
+                    Gear Edge for their timing pulleys! <br />
+                    <br />
+                    The quality is outstanding, and the system is incredibly
+                    robust. Installation was straightforward, and it performs
+                    flawlessly. I'll definitely be using Gear Edge for future
+                    projects ”
                   </p>
                 </div>
               </div>
@@ -74,12 +74,12 @@ export default function HomePage3() {
                   </div>
                 </div>
                 <div className="review">
-                  <h4>Precise gear cutting</h4>
+                  <h4>Good Quality</h4>
                   <p>
-                    “ Steelman involute gear hobs have been a crucial part of
-                    our gear production process. The teeth on the gears cut with
-                    great precision and minimal wear, which has significantly
-                    improved our production rates ”
+                    “ The timing pulley itself is excellent – well-made and
+                    performs as expected. Gear Edge's customer service was
+                    fantastic. They quickly rectified the mistake and sent the
+                    correct pulley. Would definitely buy from them again. ”
                   </p>
                 </div>
               </div>
@@ -97,18 +97,19 @@ export default function HomePage3() {
                   </div>
                 </div>
                 <div className="review dark">
-                  <h4>Such a life-changing experience. Highly recommended!</h4>
+                  <h4>Great Product, Helpful Support</h4>
                   <p>
-                    “I recently purchased the Steelman's Gear 30-degree spiral
-                    bevel gear cutter for a project involving cutting gears for
-                    a custom motorcycle transmission. I was working with
-                    hardened steel, and the cutter performed exceptionally well.
-                    It provided a clean, accurate cut with a very smooth finish.
-                    I was particularly impressed with how well it held its edge;
-                    I was able to produce over 50 gears before I noticed any
-                    significant wear. Setting up the cutter was straightforward
-                    and it was compatible with my milling machine without any
-                    modifications. ”
+                    “I'm very happy with the rack and pinion. It's well-made and
+                    performs smoothly. I had a question about the installation,
+                    and Gear Edge's support team was very helpful and
+                    responsive. They guided me through the process and got me up
+                    and running quickly. I needed replacement bushes for a
+                    vintage machine, and Gear Edge provided excellent quality
+                    parts. They fit perfectly and have restored the machine's
+                    smooth operation. The price was reasonable, and the shipping
+                    was fast. Highly recommend Gear Edge for their bushes! These
+                    bushes are a good value for the price. They're well-made and
+                    seem durable.”
                   </p>
                 </div>
               </div>
@@ -126,12 +127,13 @@ export default function HomePage3() {
                   </div>
                 </div>
                 <div className="review dark">
-                  <h4>The quality of the cuts is excellent</h4>
+                  <h4>Perfect for My Application</h4>
                   <p>
-                    “ The cutters offer precision and a good finish, though I’ve
-                    found that for certain materials , they require more
-                    frequent re-sharpening. Still, they’ve held up well in our
-                    shop and provide great value overall”
+                    “ Gear Edge's rack and pinion system was exactly what I
+                    needed for my linear motion project. The quality is
+                    outstanding, and the system is incredibly robust.
+                    Installation was straightforward, and it performs
+                    flawlessly. ”
                   </p>
                 </div>
               </div>
@@ -149,18 +151,18 @@ export default function HomePage3() {
                   </div>
                 </div>
                 <div className="review">
-                  <h4>
-                    The quality of the teeth is incredibly precise, even for
-                    complex, high-precision applications
-                  </h4>
+                  <h4>Excellent service! Good job</h4>
                   <p>
-                    “ Steelman gear cutters are a solid choice for general gear
-                    cutting. We’ve used them for a variety of projects, from
-                    smaller gears to larger, high-torque applications, and they
-                    have performed well. The cutters offer precision and a good
-                    finish, though I’ve found that for certain materials , they
-                    require more frequent re-sharpening. Still, they’ve held up
-                    well in our shop and provide great value overall. ”
+                    “ I sent in a set of gears for inspection and cleaning, and
+                    Gear Edge did an outstanding job. They were very thorough
+                    and identified a minor issue that I wasn't aware of. The
+                    gears came back looking like new, and the machine is running
+                    much smoother now. <br />
+                    <br />
+                    Their communication was excellent throughout the process.
+                    I'm happy with the cleaning and inspection service. My gears
+                    were cleaned thoroughly, and the report I received was
+                    detailed. The quality of the work was worth the wait ”
                   </p>
                 </div>
               </div>

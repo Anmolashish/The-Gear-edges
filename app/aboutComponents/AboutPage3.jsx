@@ -16,7 +16,7 @@ export default function AboutPage3() {
             tailored to your needs.
           </p>
 
-          <small>Steelmans Gears</small>
+          <small>The gear edges</small>
         </div>
         <div className="quote-image-bottom">
           <img

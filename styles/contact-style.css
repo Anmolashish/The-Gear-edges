@@ -34,12 +34,12 @@
 
 .contact-page-3 {
   display: flex;
-  flex-wrap: wrap;
-  gap: 70px;
-  justify-content: space-evenly;
+  gap: 20px;
+  justify-content: center;
   align-items: center;
-  margin-top: 20vh;
-  padding-bottom: 5vh;
+  /* padding-top: 10vh; */
+  /* padding-bottom: 5vh; */
+  color: white;
 }
 
 .contact-card {
@@ -121,7 +121,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  padding-top: 50px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -153,6 +153,7 @@
 
 .contact-page-2-description > p {
   text-align: center;
+  font-size: 17px;
 }
 
 .contact-page-description {
@@ -173,4 +174,8 @@
   flex-direction: row;
   gap: 10px;
   padding-bottom: 10vh;
+}
+
+.contact-side-image > img {
+  width: 40vw;
 }

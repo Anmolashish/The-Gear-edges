@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Navbar logo here */}
           <div className="navbar-logo">
             <img
-              src="/Images/logo2.png"
+              src="/Images/gearlogo-removebg-preview.png"
               alt="Steel Mans Gears"
               className="logo-image"
             />
@@ -41,44 +41,13 @@ export default function Navbar() {
               <Link className="no-decoration" href={"/products"}>
                 Products
               </Link>
-
-              <div className="dropdown-categories">
-                <p>
-                  <Link className="no-decoration" href={"/products"}>
-                    All
-                  </Link>
-                </p>
-                <p>
-                  <Link className="no-decoration" href={"/products/gear-hobs"}>
-                    Gear hobs
-                  </Link>
-                </p>
-                <p>
-                  <Link
-                    className="no-decoration"
-                    href={"/products/gear-cutters"}
-                  >
-                    Gear cutters
-                  </Link>
-                </p>
-                <p>
-                  <Link
-                    className="no-decoration"
-                    href={"/products/spiral-bevel-cutters"}
-                  >
-                    Spiral bevel cutters
-                  </Link>
-                </p>
-                <p>
-                  <Link
-                    className="no-decoration"
-                    href={"/products/straight-bevel-cutters"}
-                  >
-                    Straight bevel cutters
-                  </Link>
-                </p>
-              </div>
             </div>
+
+            {/* <div className="navbar-link">
+              <Link className="no-decoration" href={"/infrastructure"}>
+                Infrastructure
+              </Link>
+            </div> */}
 
             <div className="navbar-link">
               <Link className="no-decoration" href={"/contact"}>
@@ -93,11 +62,11 @@ export default function Navbar() {
           </div>
 
           <a
-            href="tel:+91 175 221 8031"
+            href="mailto:sales@thegearedges.com"
             className="navbar-phone-section no-decoration"
           >
             <div className="phone-number flex justify-center align-center text-center">
-              <p>Call us: +91 175 221 8031</p>
+              <p>Mail: sales@thegearedges.com</p>
             </div>
           </a>
 

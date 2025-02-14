@@ -1,107 +1,64 @@
 import Link from "next/link";
 import ProductCard from "./ProductCard";
+import InfrastructureCard from "./InfrastructureCard";
 
 export default function HomePage2() {
   const data = [
     {
       id: 1,
-      name: "Involute Gear Hobs",
-      description:
-        " Involute Gear Hobs for generating gears of maximum accuracy, manufactured in finishing, pre-shaving with or without protuberance and semi topping profiles. ",
-      image: "https://steelmansgears.com/imgs/involute-gear-hobs-big.jpg",
+      name: "Infrastructure",
+      description: "Gear cutting and grinding equipments",
+      image: "https://www.thegearedges.com/wp-content/uploads/2023/06/1-3.png",
       review: 4,
     },
 
     {
       id: 2,
-      name: "Chamfer Hobs ",
-      description:
-        " Involute Gear Hobs for generating gears of maximum accuracy, manufactured in finishing, pre-shaving with or without protuberance and semi topping profiles. ",
-      image: "https://steelmansgears.com/imgs/chamfer_hobs.jpg",
+      name: "Assembly",
+      description: "Human and robotic collaboration",
+      image:
+        "https://www.thegearedges.com/wp-content/uploads/2017/03/IMG_1013-1-1536x2048-1.jpg",
       review: 1,
     },
 
     {
       id: 3,
-      name: "Sharper Cutters ",
-      description:
-        " Sharper cutters is used to cut internal gears of small diameter and spline holes. They can also be designed for external gears depending on the job. ",
-      image: "https://steelmansgears.com/imgs/shank_type_shaper_cutters.jpg",
+      name: "Cleaning",
+      description: "Parts washing, polishing and lubrication",
+      image: "https://www.thegearedges.com/wp-content/uploads/2017/03/3-1.png",
       review: 3,
     },
 
     {
       id: 4,
-      name: "Inserted Blade Gear Hobs ",
-      description:
-        " Inserted Blade Gear Hobs are manufactured in the range 20 to 32 module having blades of HSS (M-2 or M-35) materials and body made of carton steel. ",
-      image: "https://steelmansgears.com/imgs/inserted_blade_gear_hobs.jpg",
+      name: "Gear inspection",
+      description: "Runnout, Backlash checks and testing",
+      image: "https://www.thegearedges.com/wp-content/uploads/2017/03/4.png",
       review: 12,
     },
   ];
   return (
     <div className="home-page-2">
       <div className="featured-products-main-div">
-        <div className="featured-page-header flex align-center ">
-          <div className="featured-page-heading">FEATURED PRODUCTS</div>
-          <div
-            className="vertical-divider"
-            style={{ backgroundColor: "white", height: "25px" }}
-          ></div>
-          <div className="featured-categories ">
-            <Link className="no-decoration" href={"/products"}>
-              <div className="featured-category">ALL</div>
-            </Link>
-            <Link className="no-decoration" href={"/products/gear-hobs"}>
-              <div className="featured-category">GEAR HOBS</div>
-            </Link>
-
-            <Link className="no-decoration" href={"/products/gear-cutters"}>
-              <div className="featured-category">GEAR CUTTERS</div>
-            </Link>
-
-            <Link
-              className="no-decoration"
-              href={"/products/spiral-bevel-cutters"}
-            >
-              <div className="featured-category">SPIRAL BEVEL GEAR CUTTERS</div>
-            </Link>
-
-            <Link
-              className="no-decoration"
-              href={"/products/straight-bevel-cutters"}
-            >
-              <div className="featured-category">
-                STRAIGHT BEVEL GEARS CUTTERS{" "}
-              </div>
-            </Link>
-          </div>
+        <div className="featured-page-header flex align-center justify-center flex-column ">
+          <div className="featured-page-heading">INFRASTRUCTURE</div>
+          <small className="featured-page-subheading">
+            The company has built a state of the art facility equipped with
+            cutting edge machinery and technology
+          </small>
         </div>
 
         <div className="featured-products flex">
           {data.map((element) => {
             return (
-              <ProductCard
+              <InfrastructureCard
                 key={element.id}
+                image={element.image}
                 name={element.name}
                 description={element.description}
-                review={element.review}
-                image={element.image}
               />
             );
           })}
-
-          <div className="search-more-outer-div">
-            <Link className="no-decoration search-more" href={"/products"}>
-              <img
-                width="40"
-                height="40"
-                src="https://img.icons8.com/ios/50/FFFFFF/add.png"
-                alt="add"
-              />
-              Click here to search more
-            </Link>
-          </div>
         </div>
       </div>
     </div>

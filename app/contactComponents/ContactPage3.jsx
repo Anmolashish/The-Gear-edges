@@ -8,36 +8,53 @@ export default function ContactPage3() {
   )}`;
   return (
     <div className="contact-page-3">
-      <ContactCard
-        heading={"CALL US"}
-        image={
-          "https://img.icons8.com/external-flat-icons-inmotus-design/67/FFFFFF/external-call-messenger-flat-icons-inmotus-design-4.png"
-        }
-        description={"Operating hours: Monday to friday, 9 to 6pm"}
-        button={"Call us"}
-        info={"tel: +91 - 175 - 7961320"}
-        link={"tel:+911234567890"}
-      />
-      <ContactCard
+      {/* <ContactCard
         heading={"MAIL US"}
         image={
           "https://img.icons8.com/ios-filled/50/FFFFFF/circled-envelope.png"
         }
         description={"Get the latest news delivered straight to your inbox."}
         button={"Mail us"}
-        info={"sales@steelmans.com"}
-        link={"mailto:sales@steelmans.com"}
-      />
-      <ContactCard
-        heading={"LOCATE US"}
-        image={"https://img.icons8.com/ios-filled/50/FFFFFF/near-me.png"}
-        description={
-          "Feel free to visit us for any inquiries or to discuss orders!"
-        }
-        button={"Locate"}
-        info={"183 Ajit Nagar, Patiala 147001 Punjab (INDIA) "}
-        link={locationLink}
-      />
+        info={"sales@thegearedges.com"}
+        link={"mailto:sales@thegearedges.com"}
+      /> */}
+
+      <div className="contact-side-image">
+        <img src="/Images/contact.png" alt="" />
+      </div>
+
+      <div className="form-container">
+        <h1 className="section-title">Contact</h1>
+        <form className="query-form">
+          <div className="form-group">
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="name">Company name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your company name."
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="name">Address</label>
+            <input type="text" id="name" placeholder="Enter you Address here" />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="message">Description of component</label>
+            <textarea
+              id="message"
+              placeholder="Enter description of component"
+            ></textarea>
+          </div>
+          <button type="submit" className="submit-btn">
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

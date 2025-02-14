@@ -61,11 +61,8 @@
   min-height: fit-content;
   max-height: 100vh;
   overflow-y: auto;
-
-  /* Hide scrollbar initially */
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: transparent transparent; /* Initially hidden */
-  transition: scrollbar-color 0.5s ease-in-out;
+  justify-content: center;
+  width: 80%;
 }
 
 /* Webkit Browsers (Chrome, Safari) */
@@ -121,4 +118,43 @@
 
 .product-category-selector-text > a {
   color: white;
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-5 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  width: 100%;
+}
+
+.home-page-5-image > img {
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-page-4-heading {
+  font-size: 40px;
+  color: white;
+}
+
+.about-page-4-description {
+  white-space: pre-line;
+  color: white;
+}
+
+.product-text {
+  width: 80%;
 }

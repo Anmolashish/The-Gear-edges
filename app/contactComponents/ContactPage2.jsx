@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function ContactPage2() {
   return (
     <div className="contact-page-2">
-      <div className="flex justify-center items-center h-screen">
+      {/* <div className="flex justify-center items-center h-screen">
         <iframe
           title="Google Map"
           className="contact-map-location"
@@ -22,11 +22,11 @@ export default function ContactPage2() {
         >
           Map here
         </iframe>
-      </div>
-
+      </div> */}
+      {/* 
       <div className="contact-description-text">
         <h1 className="contact-page-2-title">
-          Contact Steelmans Gears
+          Contact The Gear Edges
           <small>We are here to help</small>
         </h1>
         <div className="contact-page-2-description">
@@ -42,7 +42,7 @@ export default function ContactPage2() {
             our priority, and we look forward to assisting you!
           </p>
         </div>
-      </div>
+      </div> */}
 
       <ContactPage3 />
       <div className="contact-description-text">
@@ -53,35 +53,9 @@ export default function ContactPage2() {
           </p>
           <p>
             Still need help? Fill out our{" "}
-            <Link href={"/"}>Quick Query Form </Link> and we’ll assist you!
+            <Link href={"/contact"}>Quick Query Form </Link> and we’ll assist
+            you!
           </p>
-        </div>
-      </div>
-
-      <div className="contact-social-media">
-        <div className="social-icon">
-          <img
-            width="35"
-            height="35"
-            src="https://img.icons8.com/ios-filled/50/010153/facebook-new.png"
-            alt="facebook-new"
-          />
-        </div>
-        <div className="social-icon">
-          <img
-            width="35"
-            height="35"
-            src="https://img.icons8.com/stamp/50/010153/twitterx.png"
-            alt="twitterx"
-          />
-        </div>
-        <div className="social-icon">
-          <img
-            width="35"
-            height="35"
-            src="https://img.icons8.com/ios-filled/50/010153/youtube-play.png"
-            alt="youtube-play"
-          />
         </div>
       </div>
     </div>

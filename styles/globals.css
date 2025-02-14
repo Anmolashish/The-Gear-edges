@@ -34,7 +34,7 @@
 }
 
 .navbar-link:hover > a {
-  color: #009afe;
+  color: #007acf;
 }
 
 .navbar-logo {
@@ -42,7 +42,8 @@
 }
 
 .logo-image {
-  width: 8rem;
+  width: auto;
+  height: 2.6rem;
 }
 
 .navbar-search-section {
@@ -184,13 +185,13 @@
   aspect-ratio: 1/1;
   border: none;
   border-radius: 50%;
-  background-color: #009afe;
+  background-color: #007acf;
   position: absolute;
   right: 10px;
 }
 
 .search-button:hover {
-  background-color: #00cbfe;
+  background-color: #007acf;
 }
 
 .categories-input-section {
@@ -209,7 +210,7 @@
 }
 
 .navbar-phone-section {
-  background-color: #009afe;
+  background-color: #0061a7;
   color: white;
   height: 2.5rem;
   padding: 0.5rem 1.5rem;
@@ -217,7 +218,7 @@
 }
 
 .navbar-phone-section:hover {
-  background-color: #00cbfe;
+  background-color: #007acf;
 }
 
 .phone-number {
@@ -283,7 +284,7 @@
 }
 
 .find-gears {
-  background-color: #009afe;
+  background-color: #0179d0;
   padding: 1rem;
   border-radius: 1rem;
   color: white;
@@ -295,7 +296,7 @@
 }
 
 .find-gears:hover {
-  background-color: #013cd1;
+  background-color: #0160a4;
   box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.434);
 }
 
@@ -315,7 +316,7 @@
   /* background: linear-gradient(to top, white 40%, rgba(0, 36, 59) 100%); */
   background-color: rgb(1, 1, 83);
   color: rgb(255, 255, 255);
-  padding: 20px 0px;
+  padding: 60px 0px;
 }
 
 /* Product CSS */
@@ -399,7 +400,7 @@
 /* Feature products */
 
 .featured-page-header {
-  gap: 30px;
+  gap: 10px;
   padding: 60px 50px 0px 50px;
 }
 
@@ -420,14 +421,25 @@
 }
 
 .featured-page-heading {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 700;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-page-subheading {
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .featured-products {
-  padding: 50px;
-  gap: 50px;
-  align-items: stretch;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  /* align-items: stretch; */
   /* flex-wrap: wrap; */
 }
 
@@ -899,10 +911,11 @@ a:hover {
 /* Form Section Styles */
 .form-container {
   flex: 1 1 35%;
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.1); */
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); */
+  max-width: 600px;
 }
 
 .query-form {
@@ -985,7 +998,7 @@ a:hover {
 }
 
 .footer-logo > img {
-  width: 180px;
+  height: 5rem;
 }
 
 .footer-option {
@@ -1049,7 +1062,8 @@ a:hover {
 
 @media (max-width: 433px) {
   .footer-options-section-2 .footer-option-heading,
-  .footer-options-section-4 > .footer-option:last-child {
+  .footer-options-section-4 > .footer-option:last-child,
+  .no-cursor {
     display: none;
   }
 }
@@ -1106,4 +1120,21 @@ a:hover {
   overflow: hidden;
   object-fit: cover;
   border-radius: 15px;
+}
+.card-image > img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+.infrastructure-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid white; */
 }

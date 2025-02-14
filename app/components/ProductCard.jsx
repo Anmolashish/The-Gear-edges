@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import ProductPopUp from "./ProductPopUp";
+import Link from "next/link";
 
 const truncateWords = (text, maxWords) => {
   if (!text) return "";
@@ -11,16 +12,17 @@ const truncateWords = (text, maxWords) => {
     : text;
 };
 
+// Utility function to create a slug
+const createSlug = (name) => {
+  return name
+    .toLowerCase() // Convert to lowercase
+    .replace(/\s+/g, "-") // Replace spaces with -
+    .replace(/[^\w-]+/g, ""); // Remove special characters
+};
+
 const ProductCard = (props) => {
-  const [isPopUpOpen, setIsPopUpOpen] = useState(false);
-
-  const handleViewMoreClick = () => {
-    setIsPopUpOpen(true);
-  };
-
-  const handleClosePopUp = () => {
-    setIsPopUpOpen(false);
-  };
+  // Generate the slug from the name prop
+  const slug = createSlug(props.name);
 
   return (
     <div className="product-card flex flex-column justify-space-between">
@@ -36,21 +38,11 @@ const ProductCard = (props) => {
           ★★★★★
           <span>({props.review})</span>
         </div>
-        <button className="select-options-button" onClick={handleViewMoreClick}>
-          VIEW MORE
-        </button>
+        {/* Use the slug in the Link */}
+        <Link href={`/products/${slug}`}>
+          <button className="select-options-button">Explore</button>
+        </Link>
       </div>
-
-      {/* Conditionally render the ProductPopUp */}
-      {isPopUpOpen && (
-        <ProductPopUp
-          image={props.image}
-          name={props.name}
-          description={props.description}
-          review={props.review}
-          onClose={handleClosePopUp}
-        />
-      )}
     </div>
   );
 };

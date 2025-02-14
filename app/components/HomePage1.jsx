@@ -31,14 +31,14 @@ export default function HomePage1() {
 
       <div className="home-page-main-data flex flex-column">
         <h1 className="home-page-heading">
-          Steelmans
+          The Gear
           <br />
-          <span>Gears</span>
+          <span>Edges</span>
         </h1>
         <p className="home-page-subline">
-          Find expert-reviewed gears to make smarter buying decisions.
+          Specialists in finest quality plastic/delrin gears.
         </p>
-        <Link href={"/about"}>
+        <Link href={"/products"}>
           <button className="find-gears">Start Exploring</button>
         </Link>
       </div>

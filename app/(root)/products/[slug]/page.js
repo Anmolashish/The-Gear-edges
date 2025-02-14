@@ -3,7 +3,7 @@ import React from "react";
 
 export default function page({ params }) {
   return (
-    <div>
+    <div className="product">
       <ProductHandler slug={params.slug} />
     </div>
   );

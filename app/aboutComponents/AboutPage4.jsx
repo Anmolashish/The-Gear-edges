@@ -16,7 +16,7 @@ export default function AboutPage4() {
             We specialize in different gear designs for high-performance
             systems, offering products that are engineered to excel in some of
             the most challenging environments. Whether it's spur gears, helical
-            gears, planetary gear systems, or bevel gears, Steelman gears are
+            gears, planetary gear systems, or bevel gears, "The gear edges" are
             built to withstand extreme loads, high speeds, and tough operating
             conditions.
           </span>

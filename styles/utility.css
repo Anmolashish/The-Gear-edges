@@ -49,3 +49,11 @@
 .white-background {
   background-color: white;
 }
+
+.transparent {
+  color: transparent;
+}
+
+.no-cursor {
+  cursor: default;
+}
