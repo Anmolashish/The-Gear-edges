@@ -1,0 +1,124 @@
+:root {
+  --dark-blue: #010153;
+  --light-blue: #3bceff;
+  --white: white;
+
+  /* font styles */
+
+  --contact-section-small-size: clamp(14px, 2vw, 16px);
+  --big-text: clamp(2rem, 8vw, 4rem);
+}
+
+.product-page-1 {
+  background: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-section {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.product-page-heading {
+  padding-top: 10vh;
+  font-size: clamp(1rem, 5vw, 1.8rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+.product-page-subline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+@media (max-width: 538px) {
+  .product-page-subline {
+    display: none;
+  }
+}
+
+.products-category {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  margin-top: 5vh;
+  flex-wrap: wrap;
+  min-height: fit-content;
+  max-height: 100vh;
+  overflow-y: auto;
+
+  /* Hide scrollbar initially */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* Initially hidden */
+  transition: scrollbar-color 0.5s ease-in-out;
+}
+
+/* Webkit Browsers (Chrome, Safari) */
+.products-category::-webkit-scrollbar {
+  width: 6px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Default state - Hidden scrollbar */
+.products-category::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Show scrollbar when hovering */
+.products-category:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Hide scrollbar in IE & Edge */
+.products-category {
+  -ms-overflow-style: none;
+  scrollbar-gutter: stable both-edges;
+}
+
+.products-category-container {
+  min-width: 20vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  border-right: 1px solid white;
+  position: sticky;
+  top: 0;
+}
+
+.categories-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.product-category-selector {
+  width: 80%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.product-category-selector-text > a {
+  color: white;
+}

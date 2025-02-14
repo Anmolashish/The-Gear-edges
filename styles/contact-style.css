@@ -1,0 +1,176 @@
+:root {
+  --dark-blue: #010153;
+  --light-blue: #3bceff;
+  --white: white;
+
+  /* font styles */
+
+  --contact-section-small-size: clamp(14px, 2vw, 16px);
+  --big-text: clamp(2rem, 8vw, 4rem);
+}
+
+.contact-page-1 {
+  height: 40vh;
+  background-color: var(--dark-blue);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: clamp(2rem, 8vw, 4rem);
+}
+
+.contact-page-2 {
+  height: fit-content;
+  width: 100%;
+  background: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
+}
+
+.contact-map-location {
+  width: 80%;
+  height: 80vh;
+}
+
+.contact-page-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20vh;
+  padding-bottom: 5vh;
+}
+
+.contact-card {
+  min-width: 200px;
+  width: 80%;
+  max-width: 300px;
+  background-color: rgb(255, 255, 255);
+  min-height: 250px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center; /* Center children horizontally */
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 15px;
+  height: fit-content;
+}
+
+.contact-card > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.contact-card-description {
+  width: 80%;
+}
+
+.contact-icon {
+  min-width: 100px;
+  min-height: 100px;
+
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -50px; /* Moves half of the icon outside */
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 10px 15px rgba(122, 122, 122, 0.587);
+}
+
+.contact-card-heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contact-card-button {
+  width: 80%;
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-card-info {
+  font-weight: bold;
+  width: 80%;
+  padding-top: 10px;
+  font-size: small;
+}
+
+.contact-description-text {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contact-page-2-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  text-align: center;
+}
+
+.contact-page-2-title > small {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.contact-description-text > div {
+  width: 80%;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.contact-page-2-description > p {
+  text-align: center;
+}
+
+.contact-page-description {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.contact-page-description a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.contact-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  padding-bottom: 10vh;
+}
