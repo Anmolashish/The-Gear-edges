@@ -16,7 +16,7 @@ export default function AllProducts() {
     },
     {
       id: 2,
-      name: "Rack and Pinon",
+      name: "Rack and Pinion",
       description:
         "Ground and machined form are manufactured in standard in Delrin, steel, aluminium alloys and casting materials in pitch configuration. ",
       review: "50",

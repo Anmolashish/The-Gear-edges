@@ -13,21 +13,21 @@ export default function AboutPage4() {
         <div className="about-page-4-heading">Why choose us</div>
         <div className="about-page-4-description">
           <span>
-            We specialize in different gear designs for high-performance
-            systems, offering products that are engineered to excel in some of
-            the most challenging environments. Whether it's spur gears, helical
-            gears, planetary gear systems, or bevel gears, "The gear edges" are
-            built to withstand extreme loads, high speeds, and tough operating
-            conditions.
+            Gear Edge tools are manufactured to the highest quality standards,
+            ensuring precision and accuracy in every cut. This results in
+            superior finished products and reduced waste. Made from premium
+            materials and engineered for durability, Gear Edge tools are built
+            to last. Their extended lifespan reduces the need for frequent
+            replacements, saving you time and money in the long run.
           </span>
           <span>
-            Our ISO certification ensures that every step of our manufacturing
-            process is conducted with the utmost care and precision. We utilize
-            state-of-the-art technology, advanced materials, and rigorous
-            quality control systems to produce gears that perform at the highest
-            levels of efficiency and longevity. Our clients trust us to provide
-            gear solutions that enhance the performance of their equipment,
-            improve operational reliability, and reduce downtime.{" "}
+            Gear Edge is committed to innovation, constantly developing new
+            technologies and features to improve tool performance and
+            efficiency. This dedication to advancement ensures you have access
+            to the most cutting-edge tools on the market. Gear Edge provides
+            exceptional customer support and service. Their knowledgeable team
+            is always available to answer your questions and provide assistance,
+            ensuring a smooth and satisfying experience.{" "}
           </span>
         </div>
       </div>

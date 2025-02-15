@@ -13,7 +13,7 @@ export default function QuickQueryFAQ() {
     {
       question: "What does the gear edges manufactures",
       answer:
-        "Gear Edges manufactures a wide variety of gears, including spur gears, helical gears, bevel gears, planetary gears, worm gears, and custom-designed gears. We specialize in providing solutions for high-performance applications, with gears tailored to meet the unique requirements of industries such as automotive, aerospace, industrial machinery, and more. ",
+        "Gear Edges manufactures a wide variety of gears, including Pinion and Rack, Pulleys, Sprockets, Bushes and more. We specialize in providing solutions for high-performance applications, with gears tailored to meet the unique requirements of industries. ",
     },
     {
       question: "Is The gear edges an ISO-certified manufacturer?",

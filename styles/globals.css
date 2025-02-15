@@ -43,7 +43,8 @@
 
 .logo-image {
   width: auto;
-  height: 2.6rem;
+  height: 2.9rem;
+  filter: brightness(1.4) saturate(1.5);
 }
 
 .navbar-search-section {
@@ -999,6 +1000,7 @@ a:hover {
 
 .footer-logo > img {
   height: 5rem;
+  filter: brightness(1.4) saturate(1.5);
 }
 
 .footer-option {

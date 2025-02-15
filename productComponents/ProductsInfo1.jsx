@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function HomePage5({ name, data }) {
-  const { image, introduction, properties, applications, benifits } = data[0];
+  const { image, introduction, properties, applications, benefits } = data[0];
   return (
     <>
       <div className="home-page-5">
@@ -11,13 +11,14 @@ export default function HomePage5({ name, data }) {
         <div className="home-page-5-text">
           <div className="text-div">
             <div className="about-page-4-heading">{name}</div>
-            <div className="about-page-4-description">
-              <span>{introduction}</span>
-            </div>
+            <div
+              className="about-page-4-description"
+              dangerouslySetInnerHTML={{ __html: introduction }}
+            ></div>
           </div>
         </div>
       </div>
-
+      <div className="gap"></div>
       <div className="product-applications">
         <h1 className="about-page-4-heading">Applications</h1>
         <div
@@ -39,7 +40,7 @@ export default function HomePage5({ name, data }) {
         <h1 className="about-page-4-heading">Benefits</h1>
         <div
           className="about-page-4-description product-text"
-          dangerouslySetInnerHTML={{ __html: benifits }} // Render HTML content
+          dangerouslySetInnerHTML={{ __html: benefits }} // Render HTML content
         />
       </div>
     </>

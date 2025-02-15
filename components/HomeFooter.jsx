@@ -24,7 +24,7 @@ export default function HomeFooter() {
         </Link>
       </div>
       <div className="footer-options-section-2">
-        <div className="footer-option-heading no-cursor">contact</div>
+        <div className="footer-option-heading no-cursor">&ensp;</div>
         <Link href={"/contact"} className="no-decoration">
           <div className="footer-option">Contact</div>
         </Link>
@@ -38,17 +38,20 @@ export default function HomeFooter() {
 
       <div className="footer-options-section-3">
         <div className="footer-option-heading">Contact Info</div>
+        <a href="mailto:sales@thegearedges.com" className="no-decoration">
+          <div className="footer-option">
+            <span>Email: </span>sales@thegearedges.com
+          </div>
+        </a>
 
-        <div className="footer-option">
-          <span>Email: </span>sales@thegearedges.com
-        </div>
+        <Link href={"/"} className="no-decoration">
+          <div className="footer-option-heading">Archives</div>
+        </Link>
+        <Link href={"/"} className="no-decoration">
+          <div className="footer-option-heading">Recent Posts</div>
+        </Link>
 
-        <div className="footer-option transparent no-cursor">
-          <span>Email: </span>sales@thegearedges.com
-        </div>
-        <div className="footer-option transparent no-cursor">
-          <span>Email: </span>sales@thegearedges.com
-        </div>
+        <div className="footer-option-heading "></div>
       </div>
 
       <div className="lower-footer-tape">

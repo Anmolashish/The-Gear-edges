@@ -58,6 +58,32 @@ export default function ContactPage2() {
           </p>
         </div>
       </div>
+      <div className="contact-social-media">
+        <div className="social-icon">
+          <img
+            width="35"
+            height="35"
+            src="https://img.icons8.com/ios-filled/50/010153/facebook-new.png"
+            alt="facebook-new"
+          />
+        </div>
+        <div className="social-icon">
+          <img
+            width="35"
+            height="35"
+            src="https://img.icons8.com/stamp/50/010153/twitterx.png"
+            alt="twitterx"
+          />
+        </div>
+        <div className="social-icon">
+          <img
+            width="35"
+            height="35"
+            src="https://img.icons8.com/ios-filled/50/010153/youtube-play.png"
+            alt="youtube-play"
+          />
+        </div>
+      </div>
     </div>
   );
 }

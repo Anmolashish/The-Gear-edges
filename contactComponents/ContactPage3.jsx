@@ -20,7 +20,7 @@ export default function ContactPage3() {
       /> */}
 
       <div className="contact-side-image">
-        <img src="/Images/contact.png" alt="" />
+        <img src="/Images/pngwing.com.png" alt="" />
       </div>
 
       <div className="form-container">
