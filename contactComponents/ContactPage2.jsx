@@ -79,8 +79,8 @@ export default function ContactPage2() {
           <img
             width="35"
             height="35"
-            src="https://img.icons8.com/ios-filled/50/010153/youtube-play.png"
-            alt="youtube-play"
+            src="https://img.icons8.com/ios-glyphs/50/010153/google-plus.png"
+            alt="google-plus"
           />
         </div>
       </div>
