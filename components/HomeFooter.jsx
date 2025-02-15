@@ -28,10 +28,10 @@ export default function HomeFooter() {
         <Link href={"/contact"} className="no-decoration">
           <div className="footer-option">Contact</div>
         </Link>
-        <Link href={"/"} className="no-decoration">
+        <Link href={"/review"} className="no-decoration">
           <div className="footer-option">Review</div>
         </Link>
-        <Link href={"/"} className="no-decoration">
+        <Link href={"/infrastructure"} className="no-decoration">
           <div className="footer-option">Infrastructure</div>
         </Link>
       </div>
@@ -44,14 +44,10 @@ export default function HomeFooter() {
           </div>
         </a>
 
-        <Link href={"/"} className="no-decoration">
-          <div className="footer-option-heading">Archives</div>
+        <Link href={"/FAQ"} className="no-decoration">
+          <div className="footer-option">FAQ</div>
         </Link>
-        <Link href={"/"} className="no-decoration">
-          <div className="footer-option-heading">Recent Posts</div>
-        </Link>
-
-        <div className="footer-option-heading "></div>
+        <div className="footer-option-heading no-cursor">&ensp;</div>
       </div>
 
       <div className="lower-footer-tape">

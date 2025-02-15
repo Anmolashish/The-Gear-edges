@@ -67,10 +67,12 @@
   align-items: center;
   text-align: center;
   flex-grow: 1;
+  gap: 20px;
 }
 
 .contact-card-description {
   width: 80%;
+  white-space: pre-line;
 }
 
 .contact-icon {
@@ -192,4 +194,14 @@
   .contact-side-image {
     width: 70%;
   }
+}
+
+.infrastructure-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: #010153;
+  padding: 10vh 0px;
 }
