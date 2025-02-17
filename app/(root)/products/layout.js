@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata = {
   title: "The gear edges - Products",
   description:
-    "This app is created for the The gear edges and they are famously known for their product sold for gears",
+    "Gear Edge offers custom solutions tailored to your specifications. Such as rack and pinion systems, pulleys, bushes and many more. ",
 };
 
 export default function layout({ children }) {

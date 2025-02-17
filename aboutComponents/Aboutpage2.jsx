@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AboutPage3 from "./AboutPage3";
 import AboutPage4 from "./AboutPage4";
 
@@ -5,7 +6,12 @@ export default function Aboutpage2() {
   return (
     <div className="about-page-2">
       <div className="about-page-image">
-        <img src="/Images/about.png" alt="Steel mans gears" />
+        <Image
+          height={400}
+          width={400}
+          src="/Images/about.png"
+          alt="Steel mans gears"
+        />
       </div>
 
       <div className="about-page-text">

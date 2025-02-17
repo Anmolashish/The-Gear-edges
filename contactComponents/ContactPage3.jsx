@@ -1,5 +1,6 @@
 import React from "react";
 import ContactCard from "./ContactCard";
+import Image from "next/image";
 
 export default function ContactPage3() {
   const locationInfo = "183 Ajit Nagar, Patiala 147001 Punjab (INDIA)";
@@ -20,7 +21,12 @@ export default function ContactPage3() {
       /> */}
 
       <div className="contact-side-image">
-        <img src="/Images/pngwing.com.png" alt="" />
+        <Image
+          width={300}
+          height={300}
+          src="/Images/pngwing.com.png"
+          alt="Gear edges contact Image"
+        />
       </div>
 
       <div className="form-container">

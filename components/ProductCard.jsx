@@ -27,7 +27,12 @@ const ProductCard = (props) => {
   return (
     <div className="product-card flex flex-column justify-space-between">
       <div className="product-image">
-        <img src={props.image} alt="Gear Edge product image" />
+        <Image
+          width={300}
+          height={150}
+          src={props.image.trimEnd()}
+          alt="Gear Edge product image"
+        />
       </div>
       <div className="product-data">
         <h2 className="product-category">{props.name}</h2>

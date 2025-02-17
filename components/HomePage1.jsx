@@ -22,7 +22,7 @@ export default function HomePage1() {
         <Image
           key={index}
           src={image}
-          alt="Background Image"
+          alt="The gear edges Background Image"
           width={1000}
           height={1000}
           className={`background-image ${index === imageIndex ? "active" : ""}`}

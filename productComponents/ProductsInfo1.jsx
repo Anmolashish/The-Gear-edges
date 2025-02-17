@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function HomePage5({ name, data }) {
@@ -6,7 +7,7 @@ export default function HomePage5({ name, data }) {
     <>
       <div className="home-page-5">
         <div className="home-page-5-image">
-          <img src={image} alt="About the gear edges" />
+          <Image height={400} width={400} src={image} alt={name} />
         </div>
         <div className="home-page-5-text">
           <div className="text-div">

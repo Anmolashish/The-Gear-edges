@@ -13,7 +13,7 @@ export default function ReviewPage() {
                   <div className="imgbox">
                     <img
                       src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg"
-                      alt=""
+                      alt="Gear edge review image 1"
                     />
                   </div>
                   <div className="detbox">
@@ -42,7 +42,7 @@ export default function ReviewPage() {
                   <div className="imgbox">
                     <img
                       src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg"
-                      alt=""
+                      alt="Gear edge review image 2"
                     />
                   </div>
                   <div className="detbox">
@@ -65,7 +65,7 @@ export default function ReviewPage() {
                   <div className="imgbox">
                     <img
                       src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
-                      alt=""
+                      alt="Gear edge review image 3"
                     />
                   </div>
                   <div className="detbox">
@@ -95,7 +95,7 @@ export default function ReviewPage() {
                   <div className="imgbox">
                     <img
                       src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg"
-                      alt=""
+                      alt="Gear edge review image 4"
                     />
                   </div>
                   <div className="detbox">
@@ -119,7 +119,7 @@ export default function ReviewPage() {
                   <div className="imgbox">
                     <img
                       src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
-                      alt=""
+                      alt="Gear edge review image 5"
                     />
                   </div>
                   <div className="detbox">

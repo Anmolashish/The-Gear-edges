@@ -1,12 +1,15 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HomeFooter() {
   return (
     <div className="home-footer">
       <div className="footer-logo">
-        <img
+        <Image
+          width={400}
+          height={400}
           src="/Images/gearlogo-removebg-preview.png"
-          alt="Logo of Steel mans Gears"
+          alt="Logo of Gear Edges"
         />
       </div>
       <div className="footer-options-section-1">

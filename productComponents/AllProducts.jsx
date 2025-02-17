@@ -78,7 +78,7 @@ export default function AllProducts() {
     <div>
       <ProductPage1
         categoryName="All Products"
-        categoryDescription="Here's the list of all categories available in Steel's mangear."
+        categoryDescription="Here's the list of all Product available Gear Edges"
         data={allData}
       />
     </div>

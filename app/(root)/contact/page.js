@@ -7,7 +7,7 @@ import React from "react";
 export const metadata = {
   title: "The gear edges - Contact",
   description:
-    "This app is created for the The gear edges and they are famously known for their product sold for gears",
+    "Reach out to Gear Edge for inquiries about custom gear design, manufacturing, and engineering.  Our ISO certified team is ready to assist you.  Find our contact information here. ",
 };
 
 export default function page() {

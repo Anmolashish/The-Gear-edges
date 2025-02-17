@@ -48,8 +48,8 @@ export default function ContactPage2() {
       <div className="contact-description-text">
         <div className="contact-page-description">
           <p>
-            Have a question? Check out our <Link href={"/"}>FAQ</Link> for quick
-            answers.
+            Have a question? Check out our <Link href={"/FAQ"}>FAQ</Link> for
+            quick answers.
           </p>
           <p>
             Still need help? Fill out our{" "}

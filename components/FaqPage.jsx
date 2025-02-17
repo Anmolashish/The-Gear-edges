@@ -41,6 +41,43 @@ export default function FaqPage() {
       answer:
         "Gear Edges uses a variety of high-quality materials for gear manufacturing, including carbon steels, alloy steels, stainless steels, brass, bronze, and plastics. The material choice depends on the specific application, required strength, wear resistance, and environmental conditions. Our engineering team can help determine the best material for your gear needs. ",
     },
+    {
+      question:
+        " Can you manufacture gears for high-performance or extreme conditions?",
+      answer:
+        "Yes, Gear Edge specializes in designing and manufacturing high-performance gears for extreme conditions. Whether you need gears for high-torque, high-speed, or high-temperature environments, we have the expertise and technology to create gears that can withstand demanding conditions and continue to perform efficiently over time. ",
+    },
+    {
+      question: "What are gears and why are they important? ",
+      answer:
+        "Gears are toothed mechanical components used to transmit power and motion between rotating shafts. They are essential in countless machines, from cars and watches to industrial equipment, enabling speed and torque adjustments.  ",
+    },
+    {
+      question: " What is gear lubrication and why is it important? ",
+      answer:
+        "Gear lubrication reduces friction and wear between gear teeth, preventing damage and extending gear life. Different lubricants are used depending on the application and operating conditions. ",
+    },
+    {
+      question: "What are your quality control and inspection procedures? ",
+      answer:
+        "We are ISO 9001 certified and employ rigorous quality control procedures throughout the manufacturing process, including final inspection using advanced measuring equipment.  ",
+    },
+    {
+      question: " Do you offer custom gear design and engineering services? ",
+      answer:
+        "Yes, our team of experienced engineers can assist with custom gear design, optimization, and engineering support.  ",
+    },
+    {
+      question: "Do you offer gear consulting services?  ",
+      answer:
+        "Yes, our experienced engineers provide expert consulting services on gear selection, application, troubleshooting, and any gear-related challenges you may face. ",
+    },
+    {
+      question:
+        "Do you offer complete gear assemblies or just individual gears ",
+      answer:
+        "We offer both individual gears and complete gear assemblies, depending on your needs. ",
+    },
   ];
 
   return (

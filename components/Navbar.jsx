@@ -18,9 +18,11 @@ export default function Navbar() {
         <div className="upper-navbar-part flex justify-space-between align-center ">
           {/* Navbar logo here */}
           <div className="navbar-logo">
-            <img
+            <Image
+              width={200}
+              height={200}
               src="/Images/gearlogo-removebg-preview.png"
-              alt="Steel Mans Gears"
+              alt="The Gear Man Edges"
               className="logo-image"
             />
           </div>
@@ -121,12 +123,12 @@ export default function Navbar() {
             </div>
             <div className="lower-side-navbar flex justify-center align-center">
               <a
-                href="tel:+91 175 221 8031"
+                href="mailto:sales@thegearedges.com"
                 className="navbar-phone-section no-decoration justify-center"
                 style={{ display: "flex", width: "80%" }}
               >
                 <div className="phone-number flex justify-center align-center text-center">
-                  <p>Call us: +91 175 221 8031</p>
+                  <p>Mail: sales@thegearedges.com</p>
                 </div>
               </a>
             </div>
