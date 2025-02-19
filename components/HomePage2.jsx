@@ -8,7 +8,7 @@ export default function HomePage2() {
       id: 1,
       name: "Infrastructure",
       description: "Gear cutting and grinding equipments",
-      image: "https://www.thegearedges.com/wp-content/uploads/2023/06/1-3.png",
+      image: "/Images/infra1.png",
       review: 4,
     },
 
@@ -16,8 +16,7 @@ export default function HomePage2() {
       id: 2,
       name: "Assembly",
       description: "Human and robotic collaboration",
-      image:
-        "https://www.thegearedges.com/wp-content/uploads/2017/03/IMG_1013-1-1536x2048-1.jpg",
+      image: "/Images/infra2.jpg",
       review: 1,
     },
 
@@ -25,7 +24,7 @@ export default function HomePage2() {
       id: 3,
       name: "Cleaning",
       description: "Parts washing, polishing and lubrication",
-      image: "https://www.thegearedges.com/wp-content/uploads/2017/03/3-1.png",
+      image: "/Images/infra3.png",
       review: 3,
     },
 
@@ -33,7 +32,7 @@ export default function HomePage2() {
       id: 4,
       name: "Gear inspection",
       description: "Runnout, Backlash checks and testing",
-      image: "https://www.thegearedges.com/wp-content/uploads/2017/03/4.png",
+      image: "/Images/infra4.png",
       review: 12,
     },
   ];

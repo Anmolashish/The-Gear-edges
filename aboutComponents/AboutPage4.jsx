@@ -5,7 +5,7 @@ export default function AboutPage4() {
     <div className="about-page-4">
       <div className="image-div">
         <img
-          src="https://www.sudarshangear.in/img/why-choose-us-img.png"
+          src="/Images/why-choose-us-img.png"
           alt="Why choose the gear edge"
         />
       </div>

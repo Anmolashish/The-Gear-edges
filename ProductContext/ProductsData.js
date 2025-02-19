@@ -11,8 +11,7 @@ export function ProductsData({ children }) {
       slug: "plastic-delrin-gears",
       textData: [
         {
-          image:
-            "https://www.thegearedges.com/wp-content/uploads/2024/07/image-1.jpg",
+          image: "/Images/prod1.jpg",
           introduction: `
             <p class="introduction-text">
               Gears are mechanical components used to transmit motion and torque between machine parts. They come in various materials depending on their application, including metal, plastic, and composites. <strong>Plastic gears</strong> offer a range of benefits in specific applications, such as reduced weight, quality control in manufacturing, quieter operation, lower cost, and corrosion resistance.
@@ -143,8 +142,7 @@ export function ProductsData({ children }) {
       slug: "timing-pulleys",
       textData: [
         {
-          image:
-            "https://www.thegearedges.com/wp-content/uploads/2016/11/Aluminum-pulleys.jpg",
+          image: "/Images/prod3.jpg",
           introduction: `
             <p class="introduction-text">
               Timing pulleys are mechanical components used to transmit rotational motion between two or more shafts in a system. They play a crucial role in driving timing belts, which are commonly used in various machines, vehicles, and industrial applications. Timing pulleys are particularly useful when precise synchronization and high torque transmission are required.
@@ -212,8 +210,7 @@ export function ProductsData({ children }) {
       slug: "sprockets",
       textData: [
         {
-          image:
-            "https://www.thegearedges.com/wp-content/uploads/2023/05/Sprockets.jpg",
+          image: "/Images/prod4.jpg",
           introduction: `
             <p class="introduction-text">
               A sprocket is a type of mechanical component that is used to transmit rotational motion between two or more shafts. Sprockets are commonly used in conjunction with roller chains (or other types of chains) to transfer power and motion. Unlike pulleys, which use friction to drive belts, sprockets rely on the interlocking of teeth with the chain links to transmit power. This positive engagement makes sprockets highly efficient and capable of withstanding heavy loads, making them ideal for a variety of mechanical systems.
