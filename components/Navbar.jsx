@@ -18,13 +18,15 @@ export default function Navbar() {
         <div className="upper-navbar-part flex justify-space-between align-center ">
           {/* Navbar logo here */}
           <div className="navbar-logo">
-            <Image
-              width={200}
-              height={200}
-              src="/Images/gearlogo-removebg-preview.png"
-              alt="The Gear Man Edges"
-              className="logo-image"
-            />
+            <Link href={"/"}>
+              <Image
+                width={200}
+                height={200}
+                src="/Images/gearlogo-removebg-preview.png"
+                alt="The Gear Man Edges"
+                className="logo-image"
+              />
+            </Link>
           </div>
 
           {/* Navbar routes */}

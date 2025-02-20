@@ -13,12 +13,13 @@ export default function AboutPage4() {
         <div className="about-page-4-heading">Why choose us</div>
         <div className="about-page-4-description">
           <span>
-            Gear Edge tools are manufactured to the highest quality standards,
-            ensuring precision and accuracy in every cut. This results in
-            superior finished products and reduced waste. Made from premium
-            materials and engineered for durability, Gear Edge tools are built
-            to last. Their extended lifespan reduces the need for frequent
-            replacements, saving you time and money in the long run.
+            Gear Edge tools are ISO certified manufactured to the highest
+            quality standards, ensuring precision and accuracy in every cut.
+            This results in superior finished products and reduced waste. Made
+            from premium materials and engineered for durability, Gear Edge
+            tools are built to last. Their extended lifespan reduces the need
+            for frequent replacements, saving you time and money in the long
+            run.
           </span>
           <span>
             Gear Edge is committed to innovation, constantly developing new

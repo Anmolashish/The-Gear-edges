@@ -5,24 +5,20 @@ export default async function handler(req, res) {
     return res.status(405).json({ message: "Method Not Allowed" });
   }
 
+  const { name, company, address, description } = req.body;
+
   try {
-    const { name, company, address, description } = req.body;
-
-    if (!name || !company || !address || !description) {
-      return res.status(400).json({ message: "All fields are required" });
-    }
-
     const transporter = nodemailer.createTransport({
-      service: "Gmail",
+      service: "Gmail", // Use your email provider
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        user: process.env.EMAIL_USER, // Your email address
+        pass: process.env.EMAIL_PASS, // Your email password or app password
       },
     });
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "admin@yourdomain.com",
+      to: "admin@yourdomain.com", // Change to admin email
       subject: "New Contact Form Submission",
       text: `New contact form submission:
       
@@ -33,12 +29,9 @@ export default async function handler(req, res) {
     };
 
     await transporter.sendMail(mailOptions);
-
     return res.status(200).json({ message: "Email sent successfully" });
   } catch (error) {
     console.error("Email sending error:", error);
-    return res
-      .status(500)
-      .json({ message: "Email failed to send", error: error.message });
+    return res.status(500).json({ message: "Email failed to send" });
   }
 }

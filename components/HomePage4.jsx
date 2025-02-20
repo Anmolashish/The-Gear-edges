@@ -29,7 +29,7 @@ export default function QuickQueryFAQ() {
     {
       question: "How do you ensure the quality of your gears?",
       answer:
-        "We combine advanced technology, rigorous testing, and strict quality control in every step of our manufacturing process to ensure superior performance.",
+        "We combine advanced technology, rigorous testing, and strict quality control in Gear manufacturing process to ensure superior performance.",
     },
     {
       question: "Do you offer gear repair or reconditioning services? ",

@@ -7,7 +7,7 @@ export default function HomePage2() {
     {
       id: 1,
       name: "Infrastructure",
-      description: "Gear cutting and grinding equipments",
+      description: "Industrial automation gears",
       image: "/Images/infra1.png",
       review: 4,
     },
@@ -15,7 +15,7 @@ export default function HomePage2() {
     {
       id: 2,
       name: "Assembly",
-      description: "Human and robotic collaboration",
+      description: "Gear assembly solutions",
       image: "/Images/infra2.jpg",
       review: 1,
     },

@@ -12,7 +12,7 @@ export default function HomePage3() {
             <li className="services-div">Maintainance</li>
             <li className="services-div">Cleaning</li>
             <li className="services-div">Assembling</li>
-            <li className="services-div">Bulk Production</li>
+            <li className="services-div">Rapid gear Production</li>
             <li className="services-div">Gear Inspection</li>
           </ul>
 
@@ -24,7 +24,7 @@ export default function HomePage3() {
             <li className="services-div">Maintainance</li>
             <li className="services-div">Cleaning</li>
             <li className="services-div">Assembling</li>
-            <li className="services-div">Bulk Production</li>
+            <li className="services-div">Rapid gear Production</li>
             <li className="services-div">Gear Inspection</li>
           </ul>
         </div>

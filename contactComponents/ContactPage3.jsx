@@ -34,12 +34,7 @@ export default function ContactPage3() {
   return (
     <div className="contact-page-3">
       <div className="contact-side-image">
-        <Image
-          width={300}
-          height={300}
-          src="/Images/pngwing.com.png"
-          alt="Gear edges contact Image"
-        />
+        <img src="/Images/pngwing.com.png" alt="Gear edges contact Image" />
       </div>
 
       <div className="form-container">
