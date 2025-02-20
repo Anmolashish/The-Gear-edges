@@ -5,6 +5,7 @@ const Products = createContext();
 
 export function ProductsData({ children }) {
   const data = [
+    //Plastic/Delrin Gears
     {
       id: 1,
       name: "Plastic/Delrin Gears",
@@ -22,7 +23,7 @@ export function ProductsData({ children }) {
           `,
           properties: `
             <p class="properties-text">
-              Delrin is produced by DuPont and is a highly versatile plastic with several attractive properties that make it ideal for gear manufacturing:
+              Delrin is produced by DuPont and is a highly versatile plastic with several attractive properties that make it ideal for gear engineering solutions:
             </p>
             <ul class="properties-list">
               <li><strong>High Strength & Stiffness:</strong> Delrin has impressive tensile strength and rigidity, which allows it to handle higher loads and maintain shape during high-stress applications.</li>
@@ -52,7 +53,7 @@ export function ProductsData({ children }) {
               Delrin gears offer numerous benefits, especially in non-metallic applications, including:
             </p>
             <ul class="benefits-list">
-              <li><strong>Reduced Weight:</strong> Plastic gears, including Delrin, are much lighter than metal gears, which is crucial for weight-sensitive applications like consumer electronics or automotive systems.</li>
+              <li><strong>Reduced Weight:</strong> Plastic gears, including Delrin, are much light weight gears, which is crucial for weight-sensitive applications like consumer electronics or automotive systems.</li>
               <li><strong>Cost-Effective:</strong> Delrin gears are typically cheaper to manufacture compared to metal gears, especially in high-volume applications.</li>
               <li><strong>Corrosion Resistance:</strong> Unlike metal gears, Delrin gears do not corrode when exposed to moisture or certain chemicals, making them ideal for wet or humid environments.</li>
               <li><strong>Lower Power Consumption:</strong> Plastic gears reduce friction, leading to lower power consumption and more efficient energy transfer in some systems.</li>
@@ -62,7 +63,7 @@ export function ProductsData({ children }) {
         },
       ],
     },
-
+    //Rack and Pinion
     {
       id: 2,
       name: "Rack and Pinion",
@@ -136,6 +137,7 @@ export function ProductsData({ children }) {
         },
       ],
     },
+    // Timing Pulleys
     {
       id: 3,
       name: "Timing Pulleys",
@@ -145,7 +147,7 @@ export function ProductsData({ children }) {
           image: "/Images/prod3.jpg",
           introduction: `
             <p class="introduction-text">
-              Timing pulleys are mechanical components used to transmit rotational motion between two or more shafts in a system. They play a crucial role in driving timing belts, which are commonly used in various machines, vehicles, and industrial applications. Timing pulleys are particularly useful when precise synchronization and high torque transmission are required.
+              Timing pulleys are mechanical components used to transmit rotational motion between two or more shafts in a system. They play a crucial role in driving timing belts, which are commonly used in various machines, vehicles, industrial automation gears, aerospace gear solution and industrial applications. Timing pulleys are particularly useful when precise synchronization and high torque performance are required.
             </p>
             <p class="components-text">
               Timing pulleys are pulleys that have specially designed grooves or teeth that mesh with the corresponding teeth of a timing belt (also known as a toothed belt). The teeth on both the pulley and belt ensure that the pulley and belt are positively engaged, preventing slipping and ensuring accurate motion transfer.
@@ -189,7 +191,7 @@ export function ProductsData({ children }) {
               Timing pulleys offer several benefits, especially for applications requiring precise synchronization and high torque transmission:
             </p>
             <ul class="benefits-list">
-              <li><strong>Precise Motion:</strong> Timing pulleys ensure precise synchronization of components, which is critical in many applications like engines, robotics, and industrial machinery.
+              <li><strong>Precise Motion:</strong> Timing pulleys ensure precise synchronization of components, which is critical in many applications like engines, robotics, and industrial gear system.
               </li>
               <li><strong>No Slippage:</strong> The teeth of the pulley and timing belt engage positively, ensuring that there is no slippage, even under heavy loads or high speeds.
               </li>
@@ -204,6 +206,7 @@ export function ProductsData({ children }) {
         },
       ],
     },
+    // Sprockets
     {
       id: 4,
       name: "Sprockets",
@@ -216,13 +219,13 @@ export function ProductsData({ children }) {
               A sprocket is a type of mechanical component that is used to transmit rotational motion between two or more shafts. Sprockets are commonly used in conjunction with roller chains (or other types of chains) to transfer power and motion. Unlike pulleys, which use friction to drive belts, sprockets rely on the interlocking of teeth with the chain links to transmit power. This positive engagement makes sprockets highly efficient and capable of withstanding heavy loads, making them ideal for a variety of mechanical systems.
             </p>
             <p class="components-text">
-              A sprocket is a toothed wheel or gear that is specifically designed to work with a chain. Its teeth mesh with the links of a chain to transfer rotary motion. 
+              A sprocket is a toothed wheel or gear assembly solution that is specifically designed for high torque performance. Its teeth mesh with the links of a chain to transfer rotary motion. 
             </p>
            
           `,
           properties: `
             <p class="properties-text">
-              Sprockets are toothed wheels that engage with a chain to transmit power or motion. They are essential components in various machines and systems, from bicycles to heavy industrial equipment. Here are some key properties of sprockets:
+              Sprockets are toothed wheels that engage with a chain to transmit power or motion. They are essential components in various machines and systems, from bicycles to heavy industrial automation gears. Here are some key properties of sprockets:
             </p>
             <ul class="properties-list">
               <li><strong>Pitch:</strong> The pitch of a sprocket refers to the distance between consecutive teeth. It must match the pitch of the chain for proper meshing.
@@ -231,7 +234,7 @@ export function ProductsData({ children }) {
               </li>
               <li><strong>Hub Size:</strong> The hub of a sprocket is the central part that connects to the shaft. Its size and design must be compatible with the shaft and keyway.
               </li>
-              <li><strong>Material:</strong> Sprockets are commonly made from steel, cast iron, or plastic. The choice of material depends on the application, load requirements, and environmental conditions.
+              <li><strong>Material:</strong> Sprockets are commonly made from steel, cast iron, or plastic. The gear material selection depends on the application, load requirements, and environmental conditions.
               </li>
               <li><strong>Surface Treatment:</strong> Some sprockets may undergo surface treatments like black oxide or zinc plating to enhance corrosion resistance.
               </li>
@@ -250,7 +253,7 @@ export function ProductsData({ children }) {
             <ul class="applications-list">
               <li><strong>Bicycles and Motorcycles:</strong> Bicycles and motorcycles rely on sprockets and chains to transfer power from the pedals or engine to the wheels. The sprockets control the speed and efficiency of the drivetrain, enabling precise motion control.
               </li>
-              <li><strong>Industrial Machinery:</strong> Sprockets are integral to conveyor systems, assembly lines, and other heavy-duty machinery. They help power large equipment by providing efficient motion transfer with little slippage.
+              <li><strong>Industrial Machinery:</strong> Sprockets are integral to conveyor systems, gear assembly solution lines, and other heavy-duty machinery. They help power large equipment by providing efficient motion transfer with little slippage.
               </li>
               <li><strong>Agricultural Equipment:</strong> Sprockets are commonly used in agricultural machinery such as harvesters, tractors, and plows. They are used to transfer power to various parts of the machinery, enabling operations like tilling, mowing, and harvesting.
               </li>
@@ -284,6 +287,7 @@ export function ProductsData({ children }) {
         },
       ],
     },
+    // Bar Stock
     {
       id: 5,
       name: "Bar Stock",
@@ -293,7 +297,7 @@ export function ProductsData({ children }) {
           image: "/Images/2.jpg",
           introduction: `
             <p class="introduction-text">
-              Bar stock refers to a material that comes in long, solid bars of metal or plastic, typically used in manufacturing processes to create machined parts and components. It is one of the most rapid gear productions that is used in forms of raw material in machining and manufacturing industries, and it is available in a variety of shapes, sizes, and materials to suit different applications. Bar stock is typically used as a starting point for producing parts through processes like cutting, turning, milling, or grinding.
+              Bar stock refers to a material that comes in long, solid bars of metal or plastic, typically used in manufacturing sustainable gear manufacturing processes to create machined parts and components. It is one of the most rapid gear productions that is used in forms of raw material in machining and manufacturing industries, and it is available in a variety of shapes, sizes, and materials to suit different applications. Bar stock is typically used as a starting point for producing parts through processes like cutting, turning, milling, or grinding.
             </p>
         
             <p class="components-text">
@@ -325,11 +329,11 @@ export function ProductsData({ children }) {
               Bar stock is incredibly versatile and finds applications across a vast range of industries. Here are some of the most common and significant applications:
             </p>
             <ul class="applications-list">
-              <li><strong>Machine Parts:</strong> Bar stock is a fundamental material for producing a wide array of machine components, including shafts, gears, pins, bolts, screws, and fasteners. These parts are essential for machinery in virtually every industry.
+              <li><strong>Machine Parts:</strong> Bar stock is a fundamental gear material for producing a wide array of machine components, including shafts, gears, pins, bolts, screws, and fasteners. These parts are essential for machinery in virtually every industry.
               </li>
               <li><strong>Tools and Dies:</strong> Many cutting tools, punches, and dies are made from bar stock due to its strength and machinability.
               </li>
-              <li><strong>Fixtures and Jigs:</strong> Bar stock is used to create custom fixtures and jigs that hold workpieces in place during manufacturing processes.
+              <li><strong>Fixtures and Jigs:</strong> Bar stock is used to create custom fixtures and jigs that hold workpieces in place during sustainable gear manufacturing processes.
               </li>
               <li><strong>Structural Components:</strong> Steel bar stock, particularly in the form of reinforcing bars (rebar), is crucial for reinforcing concrete structures like buildings, bridges, and roads.
               </li>
@@ -356,6 +360,7 @@ export function ProductsData({ children }) {
         },
       ],
     },
+    // Poly V Pulleys
     {
       id: 6,
       name: "Poly V Pulleys",
@@ -365,7 +370,7 @@ export function ProductsData({ children }) {
           image: "/Images/3.jpg",
           introduction: `
             <p class="introduction-text">
-              Poly-V pulleys (also known as serpentine pulleys or multi-ribbed pulleys) are a type of pulley designed to work with Poly-V belts—a type of flat, multi-ribbed belt that offers superior power transmission and efficiency. These pulleys are commonly used in automotive engines, industrial machinery, and HVAC systems due to their ability to transmit power efficiently and with reduced vibration.
+              Poly-V pulleys (also known as serpentine pulleys or multi-ribbed pulleys) are a type of pulley designed to work with Poly-V belts—a type of flat, multi-ribbed belt that offers superior power transmission and efficiency. These pulleys are commonly used in automotive engines, industrial gear system, and HVAC systems due to their ability to transmit power efficiently and with reduced vibration.
             </p>
          
             <p class="components-text">
@@ -377,7 +382,7 @@ export function ProductsData({ children }) {
             <ul class="properties-list">
               <li><strong>Multi-Ribbed Design:</strong> Poly-V belts are flat, with several ribs running along the length of the belt. These ribs are what make the belt able to provide more contact area with the pulley, leading to better grip, less slippage, and increased power transmission capacity. Poly-V pulleys are specifically designed with corresponding grooves to fit these ribs.
               </li>
-              <li><strong>Compact Size:</strong> Poly-V pulleys are often smaller than traditional V-belt pulleys. This compact design allows for more efficient use of space, which is crucial in applications with limited room, like automotive engines or small machinery.
+              <li><strong>Compact Size:</strong> Poly-V pulleys are often smaller than traditional V-belt pulleys. This compact design allows for high torque performance and more efficient use of space, which is crucial in applications with limited room, like automotive engines or small machinery.
               </li>
               <li><strong>Smooth Surface:</strong> Unlike traditional V-belt pulleys that rely on friction to transmit power, Poly-V pulleys have a smoother surface that helps minimize wear and tear on both the pulley and the belt. The smooth design also helps reduce noise and vibration, which improves the overall operation of the system.
               </li>
@@ -421,6 +426,7 @@ export function ProductsData({ children }) {
         },
       ],
     },
+    // Sheet Metal Pulleys
     {
       id: 7,
       name: "Sheet Metal Pulleys",
@@ -457,7 +463,7 @@ export function ProductsData({ children }) {
             <ul class="applications-list">
               <li><strong>Automotive Industry:</strong> In automotive systems, sheet metal pulleys are often used for driving various components, such as alternators, power steering pumps, water pumps, and air conditioning compressors.
               </li>
-              <li><strong>Conveyor Systems:</strong> Sheet metal pulleys are commonly found in conveyor systems, where they serve to drive the movement of belts and materials. The lightweight design helps reduce the overall system weight while maintaining performance.
+              <li><strong>Conveyor Systems:</strong> Sheet metal pulleys are commonly found in conveyor systems, where they serve to drive the movement of belts and materials. The lightweight gear design helps reduce the overall system weight while maintaining high torque performance.
               </li>
               <li><strong>Industrial Machinery:</strong> Sheet metal pulleys are often used in machinery such as pumps, fans, and compressors to drive various mechanical components. They help transmit power from motors to driven parts like fans and blades.
               </li>
@@ -486,6 +492,7 @@ export function ProductsData({ children }) {
         },
       ],
     },
+    // Bushes
     {
       id: 8,
       name: "Bushes",
@@ -495,7 +502,7 @@ export function ProductsData({ children }) {
           image: "/Images/5.jpg",
           introduction: `
             <p class="introduction-text">
-              Bushes (or bushings) are mechanical components used to provide a bearing surface for rotary or sliding motion. They are typically cylindrical in shape and are placed between two moving parts to reduce friction, wear, and noise, while also providing support and alignment. Bushings are commonly used in applications where parts are in contact and moving relative to each other, such as in machinery, automotive, and industrial systems.
+              Bushes (or bushings) are mechanical components used to provide a bearing surface for rotary or sliding motion. They are typically cylindrical in shape and are placed between two moving parts to reduce friction, wear, and noise, while also providing support and alignment. Bushings are commonly used in applications where parts are in contact and moving relative to each other, such as in machinery, automotive, and industrial gear systems.
             </p>
             <p class="introduction-text">
               Bushes can be made from a variety of materials, including metal, plastic, composite, and rubber, and are used in a wide range of applications, from automotive to industrial machinery and construction equipment.

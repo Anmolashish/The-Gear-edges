@@ -7,7 +7,7 @@ export default function HomePage5({ name, data }) {
     <>
       <div className="home-page-5">
         <div className="home-page-5-image">
-          <Image height={400} width={400} src={image} alt={name} />
+          <img src={image} alt={name} />
         </div>
         <div className="home-page-5-text">
           <div className="text-div">

@@ -25,7 +25,8 @@ export default function Aboutpage2() {
             The Gear Edges is well established manufacturer of finest quality
             International standard and custom design gears as per special
             applications. Our products have an edge over customers specially in
-            Aerospace, Defence and modern Medical Industries.
+            Aerospace gear solution in India, Defence and modern Medical
+            Industries.
           </span>
 
           <span>
