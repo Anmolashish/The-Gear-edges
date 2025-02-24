@@ -1,37 +1,31 @@
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
 
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ message: "Method Not Allowed" });
-  }
+const resend = new Resend(process.env.RESEND_API_KEY);
 
-  const { name, company, address, description } = req.body;
-
+export async function POST(req) {
   try {
-    const transporter = nodemailer.createTransport({
-      service: "Gmail", // Use your email provider
-      auth: {
-        user: process.env.EMAIL_USER, // Your email address
-        pass: process.env.EMAIL_PASS, // Your email password or app password
-      },
+    const { name, company, address, email, description } = await req.json();
+
+    const data = await resend.emails.send({
+      from: "onboarding@resend.dev",
+      to: "anmolbatwal18@gmail.com", // Replace with your verified Resend email
+      subject: "New Contact Form Submission",
+      html: `
+        <h3>New Contact Form Submission</h3>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Company:</strong> ${company}</p>
+        <p><strong>Address:</strong> ${address}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Description:</strong> ${description}</p>
+      `,
     });
 
-    const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: "admin@yourdomain.com", // Change to admin email
-      subject: "New Contact Form Submission",
-      text: `New contact form submission:
-      
-      Name: ${name}
-      Company: ${company}
-      Address: ${address}
-      Description: ${description}`,
-    };
-
-    await transporter.sendMail(mailOptions);
-    return res.status(200).json({ message: "Email sent successfully" });
+    return Response.json({ success: true, message: "Email sent successfully" });
   } catch (error) {
-    console.error("Email sending error:", error);
-    return res.status(500).json({ message: "Email failed to send" });
+    return Response.json({
+      success: false,
+      message: "Failed to send email",
+      error,
+    });
   }
 }

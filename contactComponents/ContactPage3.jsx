@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 
 export default function ContactPage3() {
   const [formData, setFormData] = useState({
@@ -8,7 +7,10 @@ export default function ContactPage3() {
     company: "",
     address: "",
     description: "",
+    email: "",
   });
+
+  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -17,17 +19,30 @@ export default function ContactPage3() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("/api/sendEmail", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
+    try {
+      const res = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    if (response.ok) {
-      alert("Message sent successfully!");
-      setFormData({ name: "", company: "", address: "", description: "" });
-    } else {
-      alert("Failed to send message. Please try again.");
+      const result = await res.json();
+
+      if (result.success) {
+        alert("Message sent successfully!");
+        setFormData({
+          name: "",
+          company: "",
+          address: "",
+          description: "",
+          email: "",
+        });
+      } else {
+        alert("Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert("Error sending message. Try again later.");
     }
   };
 
@@ -80,6 +95,19 @@ export default function ContactPage3() {
           </div>
 
           <div className="form-group">
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <div className="form-group">
             <label htmlFor="description">Description of Component:</label>
             <textarea
               id="description"
@@ -95,6 +123,8 @@ export default function ContactPage3() {
             Submit
           </button>
         </form>
+
+        {status && <p className="status-message">{status}</p>}
       </div>
     </div>
   );
