@@ -45,7 +45,7 @@ export default function ContactPage2() {
       </div> */}
 
       <ContactPage3 />
-      <div className="contact-description-text">
+      {/* <div className="contact-description-text">
         <div className="contact-page-description">
           <p>
             Have a question? Check out our <Link href={"/FAQ"}>FAQ</Link> for
@@ -57,7 +57,7 @@ export default function ContactPage2() {
             you!
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="contact-social-media">
         <div className="social-icon">
           <img
