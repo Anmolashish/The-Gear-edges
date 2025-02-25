@@ -11,7 +11,7 @@ export default function layout({ children }) {
     <div>
       <Navbar />
       {children}
-      <HomePage4 />
+      {/* <HomePage4 /> */}
       <HomeFooter />
     </div>
   );

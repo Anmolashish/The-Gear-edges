@@ -29,7 +29,7 @@
 
 .navbar-link > a {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bolder;
 }
 
@@ -318,6 +318,7 @@
   background-color: rgb(1, 1, 83);
   color: rgb(255, 255, 255);
   padding: 60px 0px;
+  min-height: 95vh;
 }
 
 /* Product CSS */
@@ -438,7 +439,7 @@
 
 .featured-products {
   padding: 10px;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   /* align-items: stretch; */
   /* flex-wrap: wrap; */
@@ -486,14 +487,16 @@
 
 /* Home page 3 */
 .home-page-3 {
-  height: auto;
+  min-height: 120vh;
   width: 100%;
   position: relative;
+  background-color: rgb(1, 1, 83);
+  padding-bottom: 50px;
 }
 
 .testimonial-main-div {
   gap: 10px;
-  background-color: #001e43;
+  background-color: rgb(1, 1, 83);
   padding-top: 50px;
 }
 
@@ -818,6 +821,10 @@ a:hover {
   .navbar-phone-section {
     display: none;
     padding: 0;
+  }
+
+  .navbar-links {
+    width: 60%;
   }
 }
 
@@ -1159,4 +1166,101 @@ a:hover {
   left: 0;
   background-color: rgb(1, 1, 83);
   z-index: 2;
+}
+
+.view-more-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.view-more-products > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-cards > * {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.top-heading {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 60px;
+  height: 30vh;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(167, 171, 171, 0.537);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  gap: 10px;
+  color: white;
+  align-items: center;
+}
+
+.cards-image {
+  min-width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-image > img {
+  width: 80%;
+  height: auto;
+}
+
+.cards-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  /* width: 80%; */
+}
+
+.card-status {
+  font-size: 13px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+.location-heading {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+  color: rgb(139, 139, 139);
 }

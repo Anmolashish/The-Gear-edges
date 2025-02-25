@@ -5,13 +5,15 @@ import HomePage3 from "../../components/HomePage3";
 import HomePage5 from "../../productComponents/ProductsInfo1";
 import Navbar from "../../components/Navbar";
 import HomePage4 from "@/components/HomePage4";
+import FeaturedProducts from "@/components/FeaturedProducts";
 
 export default function Home() {
   return (
     <div className="main-div">
       <HomePage1 />
       {/* <HomePage5 /> */}
-      <HomePage2 />
+      {/* <HomePage2 /> */}
+      <FeaturedProducts />
       <HomePage3 />
     </div>
   );

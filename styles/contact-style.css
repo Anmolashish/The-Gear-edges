@@ -24,7 +24,7 @@
 .contact-page-2 {
   height: fit-content;
   width: 100%;
-  background: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
+  background: linear-gradient(to bottom, var(--dark-blue), var(--dark-blue));
 }
 
 .contact-map-location {
@@ -165,7 +165,7 @@
 }
 
 .contact-page-description a {
-  color: var(--dark-blue);
+  color: var(--light-blue);
   text-decoration: none;
   font-weight: 800;
 }

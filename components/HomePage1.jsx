@@ -21,7 +21,7 @@ export default function HomePage1() {
       {images.map((image, index) => (
         <Image
           key={index}
-          src={image}
+          src="/Images/background1.jpg"
           alt="The gear edges Background Image"
           width={1000}
           height={1000}

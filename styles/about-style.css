@@ -1,6 +1,6 @@
 :root {
   --dark-blue: #010153;
-  --light-blue: #3bceff;
+  --light-blue: #010153;
   --white: white;
 
   /* font styles */
@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px 0px;
-  background: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
+  background: linear-gradient(to bottom, var(--dark-blue), var(--dark-blue));
 }
 
 .about-page-image {

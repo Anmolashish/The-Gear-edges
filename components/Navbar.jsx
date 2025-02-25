@@ -47,6 +47,12 @@ export default function Navbar() {
               </Link>
             </div>
 
+            <div className="navbar-link">
+              <Link className="no-decoration" href={"/infrastructure"}>
+                Infrastructure
+              </Link>
+            </div>
+
             {/* <div className="navbar-link">
               <Link className="no-decoration" href={"/infrastructure"}>
                 Infrastructure

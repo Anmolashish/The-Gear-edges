@@ -10,7 +10,7 @@
 }
 
 .product-page-1 {
-  background: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
+  background: linear-gradient(to bottom, var(--dark-blue), var(--dark-blue));
   min-height: 100vh;
   width: 100%;
   display: flex;

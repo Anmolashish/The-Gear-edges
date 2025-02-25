@@ -1,9 +1,54 @@
 import React from "react";
+import ServiceCard from "./ServiceCard";
 
 export default function HomePage3() {
+  const data = [
+    {
+      id: 1,
+      name: "Manufacturing",
+      description:
+        "We specialize in manufacturing high-precision gears tailored to your exact specifications. Utilizing advanced CNC machining, gear grinding, and hobbing equipment, we produce spur gears, helical gears, bevel gears, worm gears, and more.  ",
+      image: "https://img.icons8.com/dotty/100/FFFFFF/manufacturing.png",
+    },
+    {
+      id: 2,
+      name: "Maintenance",
+      description:
+        "Our experienced technicians diagnose and repair gearbox failures, restoring them to peak operating condition. We offer customized maintenance schedules to extend the lifespan of your gear systems and minimize downtime. ",
+      image: "https://img.icons8.com/dotty/100/FFFFFF/work.png",
+    },
+    {
+      id: 3,
+      name: "Rapid gear production ",
+      description:
+        "We understand the critical nature of gear failures. Our rapid production capabilities enable us to manufacture replacement gears quickly, minimizing operational disruptions. We offer expedited prototyping services to accelerate product development",
+      image: "https://img.icons8.com/ios/120/FFFFFF/gears--v1.png",
+    },
+    {
+      id: 4,
+      name: "Gear inspection",
+      description:
+        "We employ state-of-the-art gear inspection equipment to verify gear accuracy and quality. This includes profile, lead, pitch, and runout measurements. We provide detailed inspection reports and certifications to ensure compliance with industry standards.",
+      image: "https://img.icons8.com/ios/150/FFFFFF/inspection.png",
+    },
+    {
+      id: 5,
+      name: "Assembly",
+      description:
+        "We assemble complete gearboxes to customer specifications, ensuring proper alignment and lubrication. We perform rigorous testing and validation procedures to ensure the performance and reliability of assembled gear systems.",
+      image:
+        "https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/100/FFFFFF/external-assembly-line-smart-devices-smashingstocks-mixed-smashing-stocks-2.png",
+    },
+    {
+      id: 6,
+      name: "Cleaning",
+      description:
+        "We offer specialized cleaning services to remove contaminants, debris, and corrosion from gears and gearboxes. For sensitive applications, we provide precision cleaning services to meet stringent cleanliness requirements.",
+      image: "https://img.icons8.com/ios-filled/150/FFFFFF/service.png",
+    },
+  ];
   return (
     <div className="home-page-3">
-      <div className="left-overlay"></div>
       <div className="testimonial-main-div flex justify-center flex-column width-100 align-center">
         <div className="testimonial-heading">Our Services</div>
         <div className="scroll">
@@ -28,146 +73,18 @@ export default function HomePage3() {
             <li className="services-div">Gear Inspection</li>
           </ul>
         </div>
-        <div className="testimonial-section">
-          <div className="outerdiv">
-            <div className="innerdiv">
-              <div className="div1 eachdiv">
-                <div className="userdetails">
-                  <div className="imgbox">
-                    <img
-                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg"
-                      alt="Gear edge review image 1"
-                    />
-                  </div>
-                  <div className="detbox">
-                    <p className="name">Daniel Clifford</p>
-                    <p className="designation">★★★★★</p>
-                  </div>
-                </div>
-                <div className="review">
-                  <h4>Smooth and Precise</h4>
-                  <p>
-                    “ I recently purchased a timing pulley for a CNC project,
-                    and I'm incredibly impressed with the quality. The machining
-                    is precise, resulting in smooth and accurate motion. The
-                    delivery was also faster than expected. Highly recommend
-                    Gear Edge for their timing pulleys! <br />
-                    <br />
-                    The quality is outstanding, and the system is incredibly
-                    robust. Installation was straightforward, and it performs
-                    flawlessly. I'll definitely be using Gear Edge for future
-                    projects ”
-                  </p>
-                </div>
-              </div>
-              <div className="div2 eachdiv">
-                <div className="userdetails">
-                  <div className="imgbox">
-                    <img
-                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg"
-                      alt="Gear edge review image 2"
-                    />
-                  </div>
-                  <div className="detbox">
-                    <p className="name">Jonathan Walters</p>
-                    <p className="designation">★★★★★</p>
-                  </div>
-                </div>
-                <div className="review">
-                  <h4>Good Quality</h4>
-                  <p>
-                    “ The timing pulley itself is excellent – well-made and
-                    performs as expected. Gear Edge's customer service was
-                    fantastic. They quickly rectified the mistake and sent the
-                    correct pulley. Would definitely buy from them again. ”
-                  </p>
-                </div>
-              </div>
-              <div className="div3 eachdiv">
-                <div className="userdetails">
-                  <div className="imgbox">
-                    <img
-                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
-                      alt="Gear edge review image 3"
-                    />
-                  </div>
-                  <div className="detbox">
-                    <p className="name dark">Kira Whittle</p>
-                    <p className="designation">★★★★★</p>
-                  </div>
-                </div>
-                <div className="review dark">
-                  <h4>Great Product, Helpful Support</h4>
-                  <p>
-                    “I'm very happy with the rack and pinion. It's well-made and
-                    performs smoothly. I had a question about the installation,
-                    and Gear Edge's support team was very helpful and
-                    responsive. They guided me through the process and got me up
-                    and running quickly. I needed replacement bushes for a
-                    vintage machine, and Gear Edge provided excellent quality
-                    parts. They fit perfectly and have restored the machine's
-                    smooth operation. The price was reasonable, and the shipping
-                    was fast. Highly recommend Gear Edge for their bushes! These
-                    bushes are a good value for the price. They're well-made and
-                    seem durable.”
-                  </p>
-                </div>
-              </div>
-              <div className="div4 eachdiv">
-                <div className="userdetails">
-                  <div className="imgbox">
-                    <img
-                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg"
-                      alt="Gear edge review image 4"
-                    />
-                  </div>
-                  <div className="detbox">
-                    <p className="name dark">Jeanette Harmon</p>
-                    <p className="designation">★★★★★</p>
-                  </div>
-                </div>
-                <div className="review dark">
-                  <h4>Perfect for My Application</h4>
-                  <p>
-                    “ Gear Edge's rack and pinion system was exactly what I
-                    needed for my linear motion project. The quality is
-                    outstanding, and the system is incredibly robust.
-                    Installation was straightforward, and it performs
-                    flawlessly. ”
-                  </p>
-                </div>
-              </div>
-              <div className="div5 eachdiv">
-                <div className="userdetails">
-                  <div className="imgbox">
-                    <img
-                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
-                      alt="Gear edge review image 5"
-                    />
-                  </div>
-                  <div className="detbox">
-                    <p className="name">Patrick Abrams</p>
-                    <p className="designation">★★★★★</p>
-                  </div>
-                </div>
-                <div className="review">
-                  <h4>Excellent service! Good job</h4>
-                  <p>
-                    “ I sent in a set of gears for inspection and cleaning, and
-                    Gear Edge did an outstanding job. They were very thorough
-                    and identified a minor issue that I wasn't aware of. The
-                    gears came back looking like new, and the machine is running
-                    much smoother now. <br />
-                    <br />
-                    Their communication was excellent throughout the process.
-                    I'm happy with the cleaning and inspection service. My gears
-                    were cleaned thoroughly, and the report I received was
-                    detailed. The quality of the work was worth the wait ”
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+
+        <div className="services-cards">
+          {data.map((data) => {
+            return (
+              <ServiceCard
+                key={data.id}
+                name={data.name}
+                description={data.description}
+                image={data.image}
+              />
+            );
+          })}
         </div>
       </div>
     </div>
