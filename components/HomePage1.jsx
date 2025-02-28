@@ -30,17 +30,17 @@ export default function HomePage1() {
       ))}
 
       <div className="home-page-main-data flex flex-column">
-        <h1 className="home-page-heading">
+        {/* <h1 className="home-page-heading">
           The Gear
           <br />
           <span>Edges</span>
-        </h1>
-        <p className="home-page-subline">
+        </h1> */}
+        {/* <p className="home-page-subline">
           Specialists in finest quality plastic/delrin gears.
-        </p>
-        <Link href={"/products"}>
+        </p> */}
+        {/* <Link href={"/products"}>
           <button className="find-gears">Start Exploring</button>
-        </Link>
+        </Link> */}
       </div>
       <div className="under-overlay"></div>
     </div>

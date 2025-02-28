@@ -20,13 +20,16 @@ export default function Navbar() {
           <div className="navbar-logo">
             <Link href={"/"}>
               <Image
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 src="/Images/gearlogo-removebg-preview.png"
                 alt="The Gear Man Edges"
                 className="logo-image"
               />
             </Link>
+            <p className="navbar-subline">
+              Specialists in finest quality plastic/delrin gears.
+            </p>
           </div>
 
           {/* Navbar routes */}
@@ -76,7 +79,7 @@ export default function Navbar() {
             className="navbar-phone-section no-decoration"
           >
             <div className="phone-number flex justify-center align-center text-center">
-              <p>Mail: sales@thegearedges.com</p>
+              <p>sales@thegearedges.com</p>
             </div>
           </a>
 

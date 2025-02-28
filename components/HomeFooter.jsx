@@ -5,9 +5,7 @@ export default function HomeFooter() {
   return (
     <div className="home-footer">
       <div className="footer-logo">
-        <Image
-          width={400}
-          height={400}
+        <img
           src="/Images/gearlogo-removebg-preview.png"
           alt="Logo of Gear Edges"
         />

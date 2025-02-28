@@ -9,7 +9,7 @@ export default function Aboutpage2() {
         <Image
           height={400}
           width={400}
-          src="/Images/about.png"
+          src="/Images/2 (2).jpg"
           alt="Steel mans gears"
         />
       </div>
@@ -25,8 +25,7 @@ export default function Aboutpage2() {
             The Gear Edges is well established manufacturer of finest quality
             International standard and custom design gears as per special
             applications. Our products have an edge over customers specially in
-            Aerospace gear solution in India, Defence and modern Medical
-            Industries.
+            Aerospace , Defence and modern Medical Industries.
           </span>
 
           <span>
@@ -37,7 +36,7 @@ export default function Aboutpage2() {
         </div>
       </div>
       <AboutPage3 />
-      <AboutPage4 />
+      {/* <AboutPage4 /> */}
     </div>
   );
 }

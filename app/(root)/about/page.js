@@ -10,7 +10,7 @@ export const metadata = {
 export default function page() {
   return (
     <div>
-      <AboutPage1 name="About us" />
+      <AboutPage1 name="About" />
       <Aboutpage2 />
     </div>
   );

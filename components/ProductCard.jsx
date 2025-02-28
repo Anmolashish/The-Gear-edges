@@ -36,9 +36,7 @@ const ProductCard = (props) => {
       </div>
       <div className="product-data">
         <h2 className="product-category">{props.name}</h2>
-        <p className="product-description">
-          {truncateWords(props.description, 10)} {/* Limit to 10 words */}
-        </p>
+
         <div className="product-rating">
           ★★★★★
           <span>({props.review})</span>
