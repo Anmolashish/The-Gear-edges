@@ -74,7 +74,7 @@ export default function HomePage3() {
           </ul>
         </div>
 
-        <div className="services-cards">
+        {/* <div className="services-cards">
           {data.map((data) => {
             return (
               <ServiceCard
@@ -85,7 +85,7 @@ export default function HomePage3() {
               />
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

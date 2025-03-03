@@ -38,7 +38,7 @@
 }
 
 .navbar-logo {
-  width: 20%;
+  /* width: 20%; */
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -321,7 +321,6 @@
   background-color: rgb(1, 1, 83);
   color: rgb(255, 255, 255);
   padding: 60px 0px;
-  min-height: 95vh;
 }
 
 /* Product CSS */
@@ -490,7 +489,6 @@
 
 /* Home page 3 */
 .home-page-3 {
-  min-height: 120vh;
   width: 100%;
   position: relative;
   background-color: rgb(1, 1, 83);
@@ -1270,6 +1268,7 @@ a:hover {
 
 .navbar-subline {
   font-size: 12px;
+  text-align: justify;
 }
 
 .home-page-5 {

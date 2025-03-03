@@ -45,11 +45,7 @@ export default function FeaturedProducts() {
     <div className="home-page-2">
       <div className="featured-products-main-div">
         <div className="featured-page-header flex align-center justify-center flex-column ">
-          <div className="featured-page-heading">FEATURED PRODUCTS</div>
-          <small className="featured-page-subheading">
-            Here are the products that are most commmonly bought in the The gear
-            edge
-          </small>
+          <div className="featured-page-heading">PRODUCTS</div>
         </div>
 
         <div className="featured-products flex">

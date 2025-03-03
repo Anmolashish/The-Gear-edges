@@ -76,11 +76,7 @@ export default function AllProducts() {
 
   return (
     <div>
-      <ProductPage1
-        categoryName="All Products"
-        categoryDescription="Here's the list of all Product available Gear Edges"
-        data={allData}
-      />
+      <ProductPage1 categoryName="Products" data={allData} />
     </div>
   );
 }

@@ -5,9 +5,6 @@ export default function ProductPage1(props) {
     <div className="products-section">
       <div className="top-text">
         <div className="product-page-heading">{props.categoryName}</div>
-        <small className="product-page-subline">
-          {props.categoryDescription}
-        </small>
       </div>
       <div className="products-category">
         {props.data.map((element) => {
