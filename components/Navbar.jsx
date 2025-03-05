@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="navbar flex align-center justify center">
       <div className="navbar-main-content width-100">
-        <div className="upper-navbar-part flex justify-space-between align-center ">
+        <div className="upper-navbar-part relative flex justify-space-between align-center ">
           {/* Navbar logo here */}
           <div className="navbar-logo">
             <Link href={"/"}>
@@ -74,6 +74,7 @@ export default function Navbar() {
             </div> */}
           </div>
 
+          <div className="empty-div"></div>
           <a
             href="mailto:sales@thegearedges.com"
             className="navbar-phone-section no-decoration"

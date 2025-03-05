@@ -57,3 +57,7 @@
 .no-cursor {
   cursor: default;
 }
+
+.relative {
+  position: relative;
+}
