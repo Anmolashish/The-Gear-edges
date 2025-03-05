@@ -408,7 +408,7 @@
 
 .featured-page-header {
   gap: 10px;
-  padding: 60px 50px 0px 50px;
+  padding: 60px 50px 15px 50px;
 }
 
 .featured-categories {
@@ -444,7 +444,7 @@
 
 .featured-products {
   padding: 10px;
-  gap: 20px;
+  gap: 40px;
   justify-content: center;
   /* align-items: stretch; */
   /* flex-wrap: wrap; */

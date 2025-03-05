@@ -73,12 +73,13 @@
 .about-page-description {
   font-size: var(--about-section-text);
   display: flex;
+  text-align: justify;
   flex-direction: column;
   justify-content: center;
 }
 
 .about-page-description > span:first-child {
-  margin: 40px 0px;
+  margin: 30px 0px;
 }
 
 .about-page-3 {

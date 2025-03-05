@@ -13,7 +13,7 @@ export const metadata = {
 export default function page() {
   return (
     <div>
-      <AboutPage1 name={"Contact us"} />
+      <AboutPage1 name={"Contact"} />
       <ContactPage2 />
     </div>
   );
