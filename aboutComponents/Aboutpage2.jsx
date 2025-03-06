@@ -9,7 +9,7 @@ export default function Aboutpage2() {
         <Image
           height={400}
           width={400}
-          src="/Images/2 (2).jpg"
+          src="/Images/aboutbg.jpg"
           alt="Steel mans gears"
         />
       </div>

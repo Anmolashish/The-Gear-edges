@@ -6,6 +6,8 @@
   /* font styles */
 
   --about-section-text: clamp(14px, 2vw, 16px);
+  --about-section-text-heading: clamp(15px, 2vw, 17px);
+
   --big-text: clamp(25px, 5vw, 40px);
 }
 
@@ -66,7 +68,7 @@
 
 .about-page-heading {
   font-weight: bold;
-  font-size: var(--about-section-text);
+  font-size: var(--about-section-text-heading);
   margin-top: 10px;
 }
 
