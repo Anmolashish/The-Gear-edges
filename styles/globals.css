@@ -214,11 +214,11 @@
 }
 
 .navbar-phone-section {
-  background-color: #0061a7;
+  border: 2px solid white;
   color: white;
   height: 2.5rem;
   padding: 0.5rem 1.5rem;
-  /* border-radius: 30px; */
+  border-radius: 30px;
   position: absolute;
   right: -40px;
   bottom: 0;
