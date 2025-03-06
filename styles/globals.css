@@ -214,18 +214,14 @@
 }
 
 .navbar-phone-section {
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #0b99ff;
+  color: #0b99ff;
   height: 2.5rem;
   padding: 0.5rem 1.5rem;
   border-radius: 30px;
   position: absolute;
   right: -40px;
   bottom: 0;
-}
-
-.navbar-phone-section:hover {
-  background-color: #007acf;
 }
 
 .phone-number {
