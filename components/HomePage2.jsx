@@ -8,7 +8,7 @@ export default function HomePage2() {
       id: 1,
       name: "Infrastructure",
       description: "Industrial automation gears",
-      image: "/Images/infra1.png",
+      image: "/Images/image-1.jpg",
       review: 4,
     },
 
@@ -16,7 +16,7 @@ export default function HomePage2() {
       id: 2,
       name: "Assembly",
       description: "Gear assembly solutions",
-      image: "/Images/infra2.jpg",
+      image: "/Images/image-2.jpg",
       review: 1,
     },
 
@@ -24,7 +24,7 @@ export default function HomePage2() {
       id: 3,
       name: "Cleaning",
       description: "Parts washing, polishing and lubrication",
-      image: "/Images/infra3.png",
+      image: "/Images/image-3.jpg",
       review: 3,
     },
 
@@ -32,7 +32,7 @@ export default function HomePage2() {
       id: 4,
       name: "Gear inspection",
       description: "Runnout, Backlash checks and testing",
-      image: "/Images/infra4.png",
+      image: "/Images/image-4.jpg",
       review: 12,
     },
   ];
