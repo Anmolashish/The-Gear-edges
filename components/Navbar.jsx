@@ -121,6 +121,15 @@ export default function Navbar() {
               <div className="navbar-tab">
                 <Link
                   className="no-decoration"
+                  href={"/infrastructure"}
+                  onClick={sidebar}
+                >
+                  Infrastructure
+                </Link>
+              </div>
+              <div className="navbar-tab">
+                <Link
+                  className="no-decoration"
                   href={"/contact"}
                   onClick={sidebar}
                 >
