@@ -7,9 +7,9 @@ export default function FeaturedProducts() {
   const data = [
     {
       id: 1,
-      name: "Plastic/ Delrin Gears",
+      name: "Delrin Gears",
       description:
-        "Small and fine pitch gears are manufactured from Derlin/Plastic fully machined. ",
+        "Small and fine pitch gears are manufactured from Derlin fully machined. ",
       review: "30",
       image:
         "https://www.thegearedges.com/wp-content/uploads/2024/07/image-1.jpg",

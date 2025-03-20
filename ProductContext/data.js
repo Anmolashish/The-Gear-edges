@@ -2,10 +2,10 @@
 export const products = [
   {
     id: 1,
-    name: "Plastic/Delrin Gears",
-    slug: "plastic-delrin-gears",
+    name: "Delrin Gears",
+    slug: "delrin-gears",
     description:
-      "Gear Edge manufactures custom plastic gears in a variety of materials and sizes.  We provide high-quality plastic/delrin gear solutions for your specific needs. ",
+      "Gear Edge manufactures custom gears in a variety of materials and sizes.  We provide high-quality delrin gear solutions for your specific needs. ",
   },
   {
     id: 2,

@@ -39,7 +39,7 @@ export default function FaqPage() {
     {
       question: "What materials do you use to manufacture gears? ",
       answer:
-        "Gear Edges uses a variety of high-quality materials for gear manufacturing, including carbon steels, alloy steels, stainless steels, brass, bronze, and plastics. The material choice depends on the specific application, required strength, wear resistance, and environmental conditions. Our engineering team can help determine the best material for your gear needs. ",
+        "Gear Edges uses a variety of high-quality materials for gear manufacturing, including carbon steels, alloy steels, stainless steels, brass, and bronze. The material choice depends on the specific application, required strength, wear resistance, and environmental conditions. Our engineering team can help determine the best material for your gear needs. ",
     },
     {
       question:

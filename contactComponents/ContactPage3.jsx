@@ -5,7 +5,7 @@ export default function ContactPage3() {
   const [formData, setFormData] = useState({
     name: "",
     company: "",
-    address: "",
+    phone: "",
     description: "",
     email: "",
   });
@@ -82,13 +82,13 @@ export default function ContactPage3() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="address">Address:</label>
+            <label htmlFor="address">Phone no:</label>
             <input
               type="text"
               id="address"
               name="address"
-              placeholder="Enter your address"
-              value={formData.address}
+              placeholder="Enter your Phone number"
+              value={formData.phone}
               onChange={handleChange}
               required
             />

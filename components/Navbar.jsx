@@ -28,7 +28,7 @@ export default function Navbar() {
               />
             </Link>
             <p className="navbar-subline">
-              Specialists in finest quality plastic/delrin gears.
+              Specialists in finest quality delrin gears.
             </p>
           </div>
 
