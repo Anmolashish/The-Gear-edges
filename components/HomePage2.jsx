@@ -48,7 +48,6 @@ export default function HomePage2() {
     <div className="home-page-2">
       <div className="featured-products-main-div">
         <div className="featured-page-header flex align-center justify-center flex-column ">
-          <div className="featured-page-heading">INFRASTRUCTURE</div>
           <small className="featured-page-subheading">
             The company has built a state of the art facility equipped with
             cutting edge machinery and technology
