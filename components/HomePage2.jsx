@@ -43,6 +43,14 @@ export default function HomePage2() {
       image: "/Images/image-5.jpg",
       review: 12,
     },
+
+    {
+      id: 6,
+      name: "Gear inspection",
+      description: "Runnout, Backlash checks and testing",
+      image: "/Images/image-6.jpg",
+      review: 12,
+    },
   ];
   return (
     <div className="home-page-2">
