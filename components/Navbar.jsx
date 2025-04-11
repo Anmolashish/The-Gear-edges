@@ -22,7 +22,7 @@ export default function Navbar() {
               <Image
                 width={300}
                 height={300}
-                src="/Images/update-gearlogo-.png"
+                src="/Images/update-gearlogo- (1).png"
                 alt="The Gear Man Edges"
                 className="logo-image"
               />

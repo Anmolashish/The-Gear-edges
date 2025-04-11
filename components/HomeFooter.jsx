@@ -5,10 +5,7 @@ export default function HomeFooter() {
   return (
     <div className="home-footer">
       <div className="footer-logo">
-        <img
-          src="/Images/gearlogo-removebg-preview.png"
-          alt="Logo of Gear Edges"
-        />
+        <img src="/Images/update-gearlogo- (1).png" alt="Logo of Gear Edges" />
       </div>
       <div className="footer-options-section-1">
         <div className="footer-option-heading">Quick links</div>
