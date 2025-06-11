@@ -38,15 +38,14 @@
 }
 
 .navbar-logo {
-  /* width: 20%; */
-  display: flex;
+   display: flex;
   align-items: start;
   flex-direction: column;
 }
 
 .logo-image {
   width: auto;
-  height: 3.5rem;
+  height: 4.5rem;
   filter: brightness(1.4) saturate(1.5);
 }
 

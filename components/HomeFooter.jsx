@@ -51,7 +51,7 @@ export default function HomeFooter() {
       </div>
 
       <div className="lower-footer-tape">
-        © 2025. The Gear edges. All Rights Reserved.
+        © 2025. The Gear edges. All Rights Reserved/SolitaireInfosys.
       </div>
     </div>
   );

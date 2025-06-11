@@ -20,8 +20,8 @@ export default function Navbar() {
           <div className="navbar-logo">
             <Link href={"/"}>
               <Image
-                width={300}
-                height={300}
+                width={600}
+                height={600}
                 src="/Images/update-gearlogo- (1).png"
                 alt="The Gear Man Edges"
                 className="logo-image"

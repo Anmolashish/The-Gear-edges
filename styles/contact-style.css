@@ -8,6 +8,12 @@
   --contact-section-small-size: clamp(14px, 2vw, 16px);
   --big-text: clamp(2rem, 8vw, 4rem);
 }
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 24px;
+}
 
 .contact-page-1 {
   height: 40vh;
